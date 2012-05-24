@@ -1,0 +1,1 @@
+<?php echo "-&nbsp;&nbsp;<b>".$snTotalItems."</b>"."&nbsp;".__('items');?>

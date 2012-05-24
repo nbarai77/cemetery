@@ -1,0 +1,16 @@
+all:
+  ohMailChimp:
+
+    # grab an API Key from http://admin.mailchimp.com/account/api/
+    api_key: '039083704c04ce615ea238c9fecd9a05-us2'
+
+    # grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
+    # Click the "settings" link for the list - the Unique Id is at the bottom of that page.
+    list_id: 'c1227000f6'
+
+    logging: true
+
+    throw_exception: true
+
+    # if you want to overwrite or add your own methods
+    class_name: ohMailChimpApi

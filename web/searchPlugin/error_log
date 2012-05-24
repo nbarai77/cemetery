@@ -1,0 +1,83 @@
+[15-Dec-2011 00:10:48] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:37:54] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:39:02] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:41:48] PHP Warning:  include_once(../sf/sfServiceContainerBuilder.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:41:48] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../sf/sfServiceContainerBuilder.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:41:48] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 158
+[15-Dec-2011 00:42:04] PHP Warning:  include_once(../sf/sfServiceContainerBuilder.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:42:04] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../sf/sfServiceContainerBuilder.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 00:42:04] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 158
+[15-Dec-2011 00:54:19] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 157
+[15-Dec-2011 01:01:46] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 01:02:34] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 16:50:14] PHP Warning:  include_once(../../../../members/application/configs/site.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 14
+[15-Dec-2011 16:50:14] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../../../members/application/configs/site.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 14
+[15-Dec-2011 16:50:14] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 19
+[15-Dec-2011 16:52:44] PHP Warning:  require_once(../../../../members/application/configs/site.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 14
+[15-Dec-2011 16:52:44] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../../../members/application/configs/site.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 14
+[15-Dec-2011 16:57:51] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 16
+[15-Dec-2011 17:00:30] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 16
+[15-Dec-2011 17:02:59] PHP Warning:  require_once(../../library/Am/Di.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:02:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../library/Am/Di.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:05:21] PHP Warning:  require_once(../../library/Am/Di.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:05:21] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../library/Am/Di.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:05:59] PHP Warning:  require_once(../../library/Am/Di.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:05:59] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '../../library/Am/Di.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:09:02] PHP Warning:  require_once(/../../library/Am/Di.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:09:02] PHP Fatal error:  require_once() [<a href='function.require'>function.require</a>]: Failed opening required '/../../library/Am/Di.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 13
+[15-Dec-2011 17:12:37] PHP Warning:  include_once(../../library/Am/Di.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:12:37] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../library/Am/Di.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:12:37] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 19
+[15-Dec-2011 17:13:12] PHP Warning:  include_once(../../../library/Am/Di.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:13:12] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../../../library/Am/Di.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:13:12] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 19
+[15-Dec-2011 17:13:34] PHP Warning:  include_once(../library/Am/Di.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:13:34] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '../library/Am/Di.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/intermen/public_html/members/application/configs/site.php on line 14
+[15-Dec-2011 17:13:34] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 19
+[15-Dec-2011 17:15:35] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 156
+[15-Dec-2011 17:17:01] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 19
+[15-Dec-2011 17:19:35] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/intermen/public_html/members/application/configs/site.php on line 15
+[15-Dec-2011 17:20:56] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/intermen/public_html/members/application/configs/site.php on line 2
+[15-Dec-2011 17:22:04] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 21
+[15-Dec-2011 17:30:30] PHP Fatal error:  Call to a member function getUser() on a non-object in /home/intermen/public_html/members/application/configs/site.php on line 20
+[15-Dec-2011 17:30:55] PHP Fatal error:  Call to a member function login() on a non-object in /home/intermen/public_html/members/application/configs/site.php on line 22
+[15-Dec-2011 17:42:10] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 20
+[15-Dec-2011 17:43:42] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 20
+[15-Dec-2011 17:45:28] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/members/application/configs/site.php on line 22
+[15-Dec-2011 17:52:33] PHP Fatal error:  Class 'sfServiceContainerBuilder' not found in /home/intermen/public_html/members/library/Am/Di.php on line 156
+[15-Dec-2011 17:56:31] PHP Fatal error:  Class 'Am_Lite' not found in /home/intermen/public_html/members/application/configs/site.php on line 18
+[15-Dec-2011 18:31:47] PHP Fatal error:  Call to undefined method Am_Di::authCheckLoggedIn() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 18:32:32] PHP Fatal error:  Call to protected method Am_Di::getAuthService() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 18:35:29] PHP Fatal error:  Call to protected method Am_Di::getAuthService() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 21
+[15-Dec-2011 18:36:41] PHP Fatal error:  Call to protected method Am_Di::getAuthService() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 21
+[15-Dec-2011 18:39:02] PHP Fatal error:  Call to undefined method Am_Di::authUser() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 19:50:04] PHP Fatal error:  Call to undefined method Am_Di::renderLoginForm() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 20:09:00] PHP Fatal error:  Call to undefined method Am_Auth_User::getInstance() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 20:10:55] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 21
+[15-Dec-2011 20:11:36] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 21
+[15-Dec-2011 20:15:08] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 21
+[15-Dec-2011 20:17:56] PHP Fatal error:  Access to undeclared static property: Am_Auth_User::$_instance in /home/intermen/public_html/members/library/Am/Auth/User.php on line 89
+[15-Dec-2011 20:19:34] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 20
+[15-Dec-2011 20:20:13] PHP Fatal error:  Call to a member function get() on a non-object in /home/intermen/public_html/members/library/Am/Auth/Abstract.php on line 75
+[15-Dec-2011 20:27:08] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 23
+[15-Dec-2011 20:30:11] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 23
+[15-Dec-2011 20:32:20] PHP Fatal error:  Cannot make non static method Am_Auth_Abstract::authenticate() static in class Am_Auth_User in /home/intermen/public_html/members/library/Am/Auth/User.php on line 5
+[15-Dec-2011 20:35:55] PHP Fatal error:  Cannot make non static method Am_Auth_Abstract::authenticate() static in class Am_Auth_User in /home/intermen/public_html/members/library/Am/Auth/User.php on line 5
+[15-Dec-2011 20:36:55] PHP Fatal error:  Call to protected method Am_Auth_User::authenticate() from context '' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 24
+[15-Dec-2011 20:40:22] PHP Fatal error:  Call to undefined method Am_Auth_User::getInstance() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 23
+[15-Dec-2011 20:42:31] PHP Fatal error:  Call to a member function login() on a non-object in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 23
+[15-Dec-2011 20:43:05] PHP Fatal error:  Call to a member function get() on a non-object in /home/intermen/public_html/members/library/Am/Auth/Abstract.php on line 75
+[15-Dec-2011 20:46:29] PHP Fatal error:  Class 'Am_Auth_User' not found in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 13
+[15-Dec-2011 20:46:52] PHP Fatal error:  Call to undefined method Am_Auth_User::getInstance() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 15
+[15-Dec-2011 20:47:06] PHP Fatal error:  Call to undefined method Am_Auth_User::getInstance() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 15
+[15-Dec-2011 21:05:14] PHP Fatal error:  session_start() [<a href='function.session-start'>function.session-start</a>]: Failed to initialize storage module: user (path: /tmp) in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 17
+[15-Dec-2011 22:28:31] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 22:53:18] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 22:55:14] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 22:57:15] PHP Warning:  Invalid argument supplied for foreach() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/searchResult.php on line 56
+[15-Dec-2011 23:39:56] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 45
+[15-Dec-2011 23:40:30] PHP Fatal error:  Class 'Am_Di' not found in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/login.php on line 45
+[15-Dec-2011 23:54:10] PHP Fatal error:  Call to undefined method User::getLogin() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/index.php on line 39
+[15-Dec-2011 23:54:36] PHP Fatal error:  Call to undefined method User::getLogin() in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/index.php on line 39
+[15-Dec-2011 23:56:12] PHP Fatal error:  Cannot use object of type User as array in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/index.php on line 14
+[15-Dec-2011 23:58:08] PHP Parse error:  syntax error, unexpected '[', expecting T_STRING or T_VARIABLE or '{' or '$' in /home/intermen/public_html/live/cemetery_live/web/searchPlugin/index.php on line 14

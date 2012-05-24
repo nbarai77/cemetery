@@ -1,0 +1,320 @@
+<?php  use_javascript('/sfFormExtraPlugin/js/double_list.js');?>
+<div id="wapper">
+<?php echo form_tag($sf_params->get('module').'/'.$sf_params->get('action'),array('name'=>'checkinout','method' => 'post'));?>
+    <div class="comment_list"></div>
+    <h1><?php echo __('Weekly Timesheet');?></h1>
+    <div id="message">
+        <div id="success_msgs">
+            <?php //echo include_partial('global/notification_msg', array('amSuccessMsg' => $amSuccessMsg,'amErrorMsg' => $amErrorMsg));?>
+        </div>
+    </div>
+    <div class="clearb">&nbsp;</div>    
+    <div id="main">
+        <div class="maintablebg">
+            <div class="main_cont">
+                <div class="left_part">
+            		<div id="info">
+                		<table width="100%" border="0" cellspacing="0" cellpadding="0" class="sub_table">                        
+                        <?php if(count($asTimeInOutDetail) > 0 && $sf_user->getAttribute('groupid') != sfConfig::get('app_cemrole_manager')):?>
+                        <tr>                      
+                        <td align="left" valign="middle">
+                        <?php
+                            $asTime = explode(' ',$asTimeInOutDetail[0]['created_at']);
+                            echo '<h1>__("Your IN time"): '.$asTime[1].'</h1>';                            
+                        ?>
+                        </td>
+                        <td align="right" valign="middle">
+                        <?php echo '<h1> __("Date"): '.date('d-m-Y',strtotime($asTimeInOutDetail[0]['task_date'])).'</h1>';?></td>
+                        </tr>
+                        <?php 
+                        endif;                        
+                        if($sf_user->getAttribute('groupid') == sfConfig::get('app_cemrole_manager')):?>
+                        <tr>
+                        <td valign="middle" align="right" width="20%">
+                            <?php echo __('Select Staff')?>
+                        </td>
+                        <td valign="middle" width="30%">
+                            <?php   include_partial('get_staff_list', array('asStaffUserList' => $asStaffUser,'snStaffId' => (isset($snStaffId) ? $snStaffId : ''))); ?>
+						</td>
+                        </tr>
+                        <tr>
+                            	<td>&nbsp;</td>
+                        		<td valign="middle">
+                                	<div class="actions">
+                                		<ul class="fleft">
+                                        	<li class="list1">
+                                        		<span>
+	                                                <?php 
+	                                                    echo submit_tag(
+	                                                        __('Show'), 
+	                                                        array(
+	                                                            'class'     => 'delete',
+	                                                            'name'      => 'submit_button',
+	                                                            'title'     => __('Show'), 
+	                                                            'tabindex'  => 8,
+	                                                            'onclick'   => "jQuery('#tab').val('');"
+	                                                        )
+	                                                    );
+	                                                ?>
+                                        		</span>
+                                        	</li>
+                            			</ul>
+                                	</div>
+                        		</td>
+                        	</tr>
+							<?php elseif($sf_user->getAttribute('groupid') == sfConfig::get('app_cemrole_staff')):?>
+							<tr>                            
+                            	
+                        		<td valign="middle">
+                                	<div class="actions">
+                                		<ul class="fleft">
+                                        <?php if(count($asTimeInOutDetail) > 0 && $asTimeInOutDetail[0]['status'] == 'OUT'):?>
+                                        	<li class="list1">
+                                        		<span>
+	                                                <?php 
+	                                                    echo submit_tag(
+	                                                        __('Clock In'), 
+	                                                        array(
+	                                                            'class'     => 'delete',
+	                                                            'name'      => 'timein',
+	                                                            'title'     => __('Check In'), 
+	                                                            'tabindex'  => 10	                                                            
+	                                                        )
+	                                                    );
+	                                                ?>
+                                        		</span>
+                                        	</li>
+                                            <?php elseif(count($asTimeInOutDetail) > 0 && $asTimeInOutDetail[0]['status'] == 'IN'):?>
+                                			<li class="list1">
+                                        		<span>
+                                        			 <?php 
+                                                     
+	                                                    echo submit_tag(
+	                                                        __('Clock Out'), 
+	                                                        array(
+	                                                            'class'     => 'delete',
+	                                                            'name'      => 'timeout',
+	                                                            'title'     => __('Check Out'), 
+	                                                            'tabindex'  => 10	                                                            
+	                                                        )
+	                                                    );
+                                                    
+	                                                ?>
+                                    			</span>
+                                    		</li>
+                                            <?php 
+                                            else:?>
+                                            <li class="list1">
+                                        		<span>
+	                                                <?php 
+	                                                    echo submit_tag(
+	                                                        __('Clock In'), 
+	                                                        array(
+	                                                            'class'     => 'delete',
+	                                                            'name'      => 'timein',
+	                                                            'title'     => __('Check In'), 
+	                                                            'tabindex'  => 10	                                                            
+	                                                        )
+	                                                    );
+	                                                ?>
+                                        		</span>
+                                        	</li>
+                                            <?php endif;?>
+                            			</ul>
+                                	</div>
+                        		</td>
+                                <td>&nbsp;</td>
+                        	</tr>
+                            <?php endif;?>
+                		</table>
+                        <div id="main" class="listtable bordernone">
+                    <div class="maintablebg">
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                        <?php if(count($asUserWeeklyDetail) > 0):?>
+                        <tr>                         
+                        <th></th>
+                        <?php foreach($asUserWeeklyDetail as $snKey=>$asValue): ?>                       
+                        <th width="15%" align="left" valign="top" class="none">
+                        <?php echo date("D", strtotime($asValue['task_date'])); ?>
+                        </th>                        
+                        <?php endforeach; ?>
+                        <th  width="15%" align="left" valign="top" class="none"><?php echo __('Total');?></th>
+                        </tr> 
+                        <tr>
+                        <td><b><?php echo __('Activity')?></b></td>
+                        <?php 
+                        foreach($asUserWeeklyDetail as $snKey=>$asValue):                                              
+                        ?>
+                            <td align="left" valign="top">
+                            <?php echo '<b>'.$asValue['DayType']['name'].'</b>'; ?>
+                            </td>                         
+                        <?php 
+                        endforeach;                        
+                        ?>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><b><?php echo __('In')?></b></td>
+                        <?php foreach($asUserWeeklyDetail as $snKey=>$asValue): 
+                        if($sf_user->getAttribute('groupid') != sfConfig::get('app_cemrole_manager')):
+                        ?>
+                            <td align="left" valign="top">
+                             <?php echo $asValue['time_in']; ?>
+                             </td>
+                        <?php 
+                        else: ?>                        
+                        <td align="left" valign="top">
+                             <?php $asTime = explode(' ',$asValue['created_at']);                             
+                             echo $asTime[1]; ?>
+                             </td>
+                        <?php endif;
+                        endforeach;
+                        
+                        ?>
+                        <td></td>
+                        </tr>
+                        <tr>
+                        <td><b><?php echo __('Out')?></b></td>
+                        <?php 
+                        foreach($asUserWeeklyDetail as $snKey=>$asValue):                                              
+                        ?>
+                            <td align="left" valign="top">
+                            <?php echo $asValue['time_out']; ?>
+                            </td>                         
+                        <?php 
+                        endforeach;                        
+                        ?>
+                        <td></td>
+                        </tr>                        
+                        <tr>
+                        <td><b><?php echo __('Total')?></b></td>
+                        <?php  
+                        $snTotalTime = sfConfig::get('app_default_time');
+                        foreach($asUserWeeklyDetail as $snKey=>$asValue):
+                        ?>                        
+                        <td align="left" valign="top">
+                        <?php 
+                            $snTotalTime = sfGeneral::sum_the_time($snTotalTime,$asValue['total_hrs']);                                                   
+                        if($sf_user->getAttribute('groupid') == sfConfig::get('app_cemrole_manager')):?>
+                             <div id="div_upd_time_out_<?php echo $asValue['id'];?>">
+									<?php 
+										include_partial('change_out_time',array('snTime'	=> $asValue['total_hrs'],
+																				'snTimeInOutId'  => $asValue['id'],
+                                                                                'snUserId' => $snStaffId,
+																				)
+														);
+									?> 
+									</div>
+                         <?php else:
+                         echo '<b>'.$asValue['total_hrs'].'</b>';
+                         endif;
+                         ?>
+                        </td>                        
+                        <?php endforeach; ?>
+                        <td>
+                        <span id="totalHrs"><b><?php echo $snTotalTime;?></b></div></td>          
+                        </tr>
+                        </tr>
+                        <tr>
+                        <td><b><?php echo __('Overtime')?></b></td>
+                        <?php 
+                        $snSumOverTime = sfConfig::get('app_default_time');
+                        $snRegularTime = sfConfig::get('app_regular_time');
+                        foreach($asUserWeeklyDetail as $snKey=>$asValue):                                              
+                        ?>
+                            <td align="left" valign="top">
+                            <?php 
+                            if(strtotime($asValue['total_hrs']) > strtotime($snRegularTime))
+                            {
+                                $snOverTime = sfGeneral::diff_between_time($asValue['total_hrs'],$snRegularTime);                                
+                                $snSumOverTime = sfGeneral::sum_the_time($snSumOverTime,$snOverTime);                                
+                            }
+                        ?>
+                        <span id="overTime_<?php echo $asValue['id'];?>"><?php echo ((isset($snOverTime))?$snOverTime:sfConfig::get('app_default_time')); ?></span>
+                            </td>                         
+                        <?php 
+                        endforeach;                        
+                        ?>
+                        <td>
+                        <span id="totalOvertimeHrs"><b><?php echo $snSumOverTime;?></b></div></td>
+                        </tr>
+                        <tr>
+                        <td align="left" valign="top">
+                        <div class="fleft" style="margin-left:5px;">
+						<?php   echo button_to(__('Export'),'timeinout/exportTimeSheet?id_user='.$asValue['user_id'], 
+								array('title' => __('Export'),'tabindex'=> 1,'id' => 'exportUserDetail')
+								);
+                        ?>
+						</div>
+                        </td>                        
+                        <td align="left" valign="top">
+                        </td>
+                        </tr>
+                        <?php else:
+                            echo '<div class="warning-msg"><span>'.__('Record(s) not found').'</span></div>';
+                        endif;?>
+                        </table>
+                        </div>
+                        </div>
+            		</div>
+
+                </div>
+                <div class="clearb"></div>
+            </div>
+        </div>
+    </div>
+    <div class="clearb">&nbsp;</div>
+    <div class="clearb">&nbsp;</div>    
+    </form>
+</div>
+<?php 
+    echo javascript_tag('
+        ssTags = document.getElementsByTagName("INPUT");
+        document.getElementById(ssTags[0].id).select();
+        document.getElementById(ssTags[0].id).focus();'
+    );
+    
+    echo javascript_tag("
+    
+    function letterAction(ssUrl, ssContentType)
+    {
+        ssUrl = ssUrl+'?content_type='+ssContentType;
+        window.open(ssUrl,'sendletterwindow','width=1200,height=1000,scrollbars=yes');
+    }
+
+
+        jQuery(document).ready(function() 
+		{
+			var snCountryId = jQuery('#chapel_country_id').val();
+			var snCemeteryId = $('#chapel_cem_cemetery_id option').length;
+			if(snCountryId > 0 && snCemeteryId == 1)
+				callAjaxRequest(snCountryId,'".url_for('chapel/getCementryListAsPerCountry')."','cementery_list');
+		
+		});
+        function tabSelection(id, ssClassName)
+        { 
+            var asTabs      = new Array('user_info','user_permission');
+            var asUpdateDiv = new Array('info','permission'); 
+            
+            for(var i=0;i<asTabs.length;i++)
+            {
+	            jQuery('#' + asTabs[i] ).removeClass(ssClassName);
+            }
+            jQuery('#user_' + id).addClass(ssClassName);
+            
+            for(var i=0;i<asUpdateDiv.length;i++)
+            {
+                jQuery('#' + asUpdateDiv[i] ).attr('style','display:none');
+            }
+
+            jQuery('#' + id).attr('style','display:block');
+        }
+    ");
+echo javascript_tag("
+	jQuery(document).ready(function() 
+		{
+			$('table').find('tr:visible:odd').addClass('even').end().find('tr:visible:even').addClass('odd');
+			
+		});
+");
+?>

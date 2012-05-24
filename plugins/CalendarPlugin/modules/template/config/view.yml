@@ -1,0 +1,3 @@
+default:
+  stylesheets:    [admin/style.css, nyroModal/nyroModal.css, timepicker.css]
+  javascripts:    [admin/common.js, nyroModal/jquery.nyroModal.custom.js, jquery-ui-1.8.14.custom.min.js, jquery-ui-timepicker.js] 

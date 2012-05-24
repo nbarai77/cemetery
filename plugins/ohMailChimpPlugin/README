@@ -1,0 +1,56 @@
+ohMailChimpPlugin
+=================
+
+The ohMailChimpPlugin is a simple wrapper for the [MailChimp API class](http://apidocs.mailchimp.com/rtfm/).
+
+Installation
+------------
+
+  * Install the plugin
+
+        $ symfony plugin:install ohMailChimpPlugin --stability=beta
+
+  * Add your api key to `app.yml`
+
+        [yml]
+        all:
+          ohMailChimp:
+            api_key: 1234567890
+
+  * Clear you cache
+
+        $ symfony cc
+
+Optional configuration settings
+-------------------------------
+
+  * There are a couple of extra configuration options that can optionally be added
+  to `app.yml` to change the behavior of plugin:
+
+        [yml]
+        all:
+          ohMailChimp:
+
+            # log all communications for debugging
+            logging: true
+
+            # throw an exception on error (which you can handle however you want)
+            throw_exception: true
+
+
+Usage
+-----
+
+Example: Adding an email to a mailing list:
+
+
+    $listId = sfConfig::get('app_ohMailChimp_list_id');
+
+    $response = ohMailChimpApi::getInstance()->listSubscribe($listId, 'testing@example.co.uk');
+
+I'm sure you get the idea.
+
+TODO
+----
+* Create a task to sync contacts opt-in status
+* Show more examples

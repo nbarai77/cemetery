@@ -1,0 +1,142 @@
+calCalendar:
+  connection: doctrine
+  tableName: cal_calendar
+  actAs:
+    Timestampable:    ~
+  columns:
+    cal_calendar_id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+      notnull: true
+    cal_schedular_id:
+      type: integer(4)
+      notnull: true
+    periode:
+      type: integer(4)
+      notnull: true
+    periode_type:
+      type: integer(4)
+      notnull: true
+    duration:
+      type: integer(4)
+      notnull: true
+    slot:
+      type: integer(4)
+      notnull: true
+    cal_special_reservation_id:
+      type: integer(4)
+      notnull: true
+    lab_list:
+      type: clob(65532)
+    artical_list:
+      type: clob(65532)
+    rate_bace:
+      type: char(1)
+  relations:
+    calSchedular:
+      onDelete: Cascade
+      local: cal_schedular_id
+      foreign: cal_schedular_id 
+      type: one
+    calSpecialReservation:
+      onDelete: Cascade
+      local: cal_special_reservation_id
+      foreign: cal_special_reservation_id 
+      type: one
+      
+calSchedular:
+  connection: doctrine
+  tableName: cal_schedular
+  actAs:
+    Timestampable:    ~
+  columns:
+    cal_schedular_id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+      notnull: true
+    cal_template_id:
+      type: integer(4)
+      notnull: true
+    start_date:
+      type: timestamp(4)
+      notnull: true
+  relations:
+    calTemplate:
+      onDelete: Cascade
+      local: cal_template_id
+      foreign: cal_template_id
+      type: one
+
+calSpecialReservation:
+  connection: doctrine
+  tableName: cal_special_reservation
+  actAs:
+    Timestampable:    ~
+  columns:
+    cal_special_reservation_id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+      notnull: true
+    equ_equipment_id:
+      type: integer(4)
+      notnull: true
+    user_id:
+      type: integer
+      notnull: true
+    name:
+      type: string(100)
+      unique: true       
+      notnull: true
+    reservation_type:
+      type: enum
+      notnull: true
+      values: [special, maintenance]
+    user_list:
+      type: clob(65532)
+      notnull: true
+    sort_order:
+      type: integer(4)
+  relations:
+    equEquipement:
+      onDelete: Cascade
+      local: equ_equipement_id
+      foreign: equ_equipment_id
+      type: one
+    sfGuardUser:
+      onDelete: Cascade
+      local: user_id
+      foreign: id
+      type: one
+
+calTemplate:
+  connection: doctrine
+  tableName: cal_template
+  actAs:
+    Timestampable:    ~
+  columns:
+    cal_template_id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+      notnull: true
+    equ_equipment_id:
+      type: integer(4)
+      notnull: true
+    name:
+      type: string(100)
+      unique: true       
+      notnull: true
+    description:
+      type: clob(65532)
+    param_set:
+      type: clob(65532)
+      notnull: true
+  relations:
+    equEquipement:
+      onDelete: Cascade
+      local: equ_equipement_id
+      foreign: equ_equipment_id
+      type: one

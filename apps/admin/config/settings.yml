@@ -1,0 +1,62 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/04-Settings
+
+prod:
+  .settings:
+    no_script_name:         true
+    logging_enabled:        false
+chk:
+  .settings:
+    no_script_name:         false
+    logging_enabled:        false
+dev:
+  .settings:
+    error_reporting:        <?php echo (E_ALL | E_STRICT)."\n" ?>
+    web_debug:              true
+    cache:                  false
+    no_script_name:         false
+    etag:                   false
+
+test:
+  .settings:
+    error_reporting:        <?php echo ((E_ALL | E_STRICT) ^ E_NOTICE)."\n" ?>
+    cache:                  false
+    web_debug:              false
+    no_script_name:         true
+    etag:                   false
+
+all:
+  .actions:
+    error_404_module: default   # To be called when a 404 error is raised
+    error_404_action: error404   # Or when the requested URL doesn't match any route
+
+    login_module:           sfGuardAuth
+    login_action:           signin
+
+    secure_module:          default
+    secure_action:          secure
+  .settings:
+    # Form security secret (CSRF protection)
+    csrf_secret:            fdd8e16ec14e63c0441d0f77a1b3d888f2fb1b57
+    
+    enabled_modules:      [default, sfGuardGroup, sfGuardUser, sfGuardPermission, sfGuardAuth, sfGuardForgotPassword]
+
+    # Output escaping settings
+    escaping_strategy:      true
+    escaping_method:        ESC_SPECIALCHARS
+
+    #Helpers included in all templates by default
+    standard_helpers:       [Partial, Form, Number, Url, I18N, Cache, jQuery]
+
+    # Enable the database manager
+    use_database:           true
+    
+    #secure_module: default   # To be called when a user doesn't have
+    #secure_action: secure   # The credentials required for an action    
+
+    # Enable I18N
+    i18n:                   true
+    
+    charset:                utf-8
+    
+    default_culture:        en

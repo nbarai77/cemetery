@@ -1,0 +1,50 @@
+#
+# Copyright (c) 2003-2010, CKSource - Frederico Knabben. All rights reserved.
+# For licensing, see LICENSE.html or http://ckeditor.com/license
+#
+
+#
+# On some specific Linux installations you could face problems with Firefox.
+# It could give you errors when loading the editor saying that some illegal
+# characters were found (three strange chars in the beginning of the file).
+# This could happen if you map the .js or .css files to PHP, for example.
+#
+# Those characters are the Byte Order Mask (BOM) of the Unicode encoded files.
+# All FCKeditor files are Unicode encoded.
+#
+
+AddType application/x-javascript .js
+AddType application/x-httpd-php .html
+AddType text/html .html
+AddType text/css .css
+
+#
+# If PHP is mapped to handle XML files, you could have some issues. The
+# following will disable it.
+#
+Options +FollowSymLinks +ExecCGI
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # uncomment the following line, if you are having trouble
+  # getting no_script_name to work
+  #RewriteBase /
+
+  # we skip all files with .something
+  RewriteCond %{REQUEST_URI} \..+$
+  RewriteCond %{REQUEST_URI} !\.htm$
+  RewriteRule .* - [L]
+
+  # we check if the .html version is here (caching)
+  RewriteRule ^$ index.html [QSA]
+  RewriteRule ^([^.]+)$ $1.html [QSA]
+  RewriteCond %{REQUEST_FILENAME} !-f
+
+  # no, so we redirect to our front web controller
+  RewriteCond %{HTTP_HOST} !^admin\.
+  RewriteRule ^(.*)$ index.php [QSA,L]
+  
+  RewriteCond %{HTTP_HOST} admin\.
+  RewriteRule ^(.*)$ admin.php [QSA,L]
+</IfModule>

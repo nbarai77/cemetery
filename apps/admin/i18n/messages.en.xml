@@ -1,0 +1,3228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+  <file original="global" source-language="en" datatype="plaintext" date="2011-11-19T16:01:23Z">
+    <body>
+      <trans-unit id="1">
+        <source>©2011 Interments</source>
+        <target><![CDATA[©2011 Interments]]></target>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>tip_logo</source>
+        <target><![CDATA[Interments]]></target>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Academic</source>
+        <target><![CDATA[Academic]]></target>
+      </trans-unit>
+      <trans-unit id="4">
+        <source>Change password</source>
+        <target><![CDATA[Change password]]></target>
+      </trans-unit>
+      <trans-unit id="5">
+        <source>Logout</source>
+        <target><![CDATA[Logout]]></target>
+      </trans-unit>
+      <trans-unit id="6">
+        <source>Log out</source>
+        <target><![CDATA[Log out]]></target>
+      </trans-unit>
+      <trans-unit id="7">
+        <source>items</source>
+        <target><![CDATA[Items]]></target>
+      </trans-unit>
+      <trans-unit id="8">
+        <source>--- Select Cementery ----</source>
+        <target><![CDATA[Select Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="9">
+        <source>Sort</source>
+        <target><![CDATA[Sort]]></target>
+      </trans-unit>
+      <trans-unit id="10">
+        <source>Ascending</source>
+        <target><![CDATA[Ascending]]></target>
+      </trans-unit>
+      <trans-unit id="11">
+        <source>Descending</source>
+        <target><![CDATA[Descending]]></target>
+      </trans-unit>
+      <trans-unit id="12">
+        <source>User Setup</source>
+        <target><![CDATA[User Setup]]></target>
+      </trans-unit>
+      <trans-unit id="13">
+        <source>Users</source>
+        <target><![CDATA[Users]]></target>
+      </trans-unit>
+      <trans-unit id="14">
+        <source>Super Admin</source>
+        <target><![CDATA[Super Admin]]></target>
+      </trans-unit>
+      <trans-unit id="15">
+        <source>Admin Setup</source>
+        <target><![CDATA[Admin Setup]]></target>
+      </trans-unit>
+      <trans-unit id="16">
+        <source>Country</source>
+        <target><![CDATA[Country]]></target>
+      </trans-unit>
+      <trans-unit id="17">
+        <source>Disease</source>
+        <target><![CDATA[Disease]]></target>
+      </trans-unit>
+      <trans-unit id="18">
+        <source>Denomination</source>
+        <target><![CDATA[Denomination]]></target>
+      </trans-unit>
+      <trans-unit id="19">
+        <source>Coffin type</source>
+        <target><![CDATA[Coffin type]]></target>
+      </trans-unit>
+      <trans-unit id="20">
+        <source>FuneralServices</source>
+        <target><![CDATA[FuneralServices]]></target>
+      </trans-unit>
+      <trans-unit id="21">
+        <source>Funeral services</source>
+        <target><![CDATA[Funeral services]]></target>
+      </trans-unit>
+      <trans-unit id="22">
+        <source>Lodged by</source>
+        <target><![CDATA[Lodged by]]></target>
+      </trans-unit>
+      <trans-unit id="23">
+        <source>Service type</source>
+        <target><![CDATA[Service type]]></target>
+      </trans-unit>
+      <trans-unit id="24">
+        <source>Unit type</source>
+        <target><![CDATA[Unit type]]></target>
+      </trans-unit>
+      <trans-unit id="25">
+        <source>Work type</source>
+        <target><![CDATA[Work type]]></target>
+      </trans-unit>
+      <trans-unit id="26">
+        <source>Stone mason work type</source>
+        <target><![CDATA[Stone mason work type]]></target>
+      </trans-unit>
+      <trans-unit id="27">
+        <source>Language</source>
+        <target><![CDATA[Language]]></target>
+      </trans-unit>
+      <trans-unit id="28">
+        <source>Cemetery Setup</source>
+        <target><![CDATA[Cemetery Settings]]></target>
+      </trans-unit>
+      <trans-unit id="29">
+        <source>Cemetery</source>
+        <target><![CDATA[Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="30">
+        <source>Area</source>
+        <target><![CDATA[Area]]></target>
+      </trans-unit>
+      <trans-unit id="31">
+        <source>Section</source>
+        <target><![CDATA[Section]]></target>
+      </trans-unit>
+      <trans-unit id="32">
+        <source>Row</source>
+        <target><![CDATA[Row]]></target>
+      </trans-unit>
+      <trans-unit id="33">
+        <source>Plot</source>
+        <target><![CDATA[Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="34">
+        <source>Grave</source>
+        <target><![CDATA[Grave]]></target>
+      </trans-unit>
+      <trans-unit id="35">
+        <source>Stone Mason</source>
+        <target><![CDATA[Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="36">
+        <source>Grantee</source>
+        <target><![CDATA[Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="37">
+        <source>Interment</source>
+        <target><![CDATA[Interment]]></target>
+      </trans-unit>
+      <trans-unit id="38">
+        <source>FuneralDirector</source>
+        <target><![CDATA[Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="39">
+        <source>Booking</source>
+        <target><![CDATA[Booking]]></target>
+      </trans-unit>
+      <trans-unit id="40">
+        <source>Facility Booking</source>
+        <target><![CDATA[Facility Booking]]></target>
+      </trans-unit>
+      <trans-unit id="41">
+        <source>Facility</source>
+        <target><![CDATA[Facility]]></target>
+      </trans-unit>
+      <trans-unit id="42">
+        <source>Service Booking</source>
+        <target><![CDATA[Service Booking]]></target>
+      </trans-unit>
+      <trans-unit id="43">
+        <source>Service</source>
+        <target><![CDATA[Service]]></target>
+      </trans-unit>
+      <trans-unit id="44">
+        <source>Search</source>
+        <target><![CDATA[Search]]></target>
+      </trans-unit>
+      <trans-unit id="45">
+        <source>msg_loading_result</source>
+        <target><![CDATA[msg_loading_result]]></target>
+      </trans-unit>
+      <trans-unit id="46">
+        <source>msg_record_updated</source>
+        <target><![CDATA[msg_record_updated]]></target>
+      </trans-unit>
+      <trans-unit id="47">
+        <source>Filter</source>
+        <target><![CDATA[Filter]]></target>
+      </trans-unit>
+      <trans-unit id="48">
+        <source>Reset</source>
+        <target><![CDATA[Reset]]></target>
+      </trans-unit>
+      <trans-unit id="49">
+        <source>--- Select Area ----</source>
+        <target><![CDATA[Select Area]]></target>
+      </trans-unit>
+      <trans-unit id="50">
+        <source>Select</source>
+        <target><![CDATA[Select]]></target>
+      </trans-unit>
+      <trans-unit id="51">
+        <source>Back</source>
+        <target><![CDATA[Back]]></target>
+      </trans-unit>
+      <trans-unit id="52">
+        <source>Add new</source>
+        <target><![CDATA[Add]]></target>
+      </trans-unit>
+      <trans-unit id="53">
+        <source>Delete</source>
+        <target><![CDATA[Delete]]></target>
+      </trans-unit>
+      <trans-unit id="54">
+        <source>Change status</source>
+        <target><![CDATA[Change status]]></target>
+      </trans-unit>
+      <trans-unit id="55">
+        <source>Active</source>
+        <target><![CDATA[Active]]></target>
+      </trans-unit>
+      <trans-unit id="56">
+        <source>Inactive</source>
+        <target><![CDATA[Inactive]]></target>
+      </trans-unit>
+      <trans-unit id="57">
+        <source>Change order</source>
+        <target><![CDATA[Change order]]></target>
+      </trans-unit>
+      <trans-unit id="58">
+        <source>Enter only numeric value</source>
+        <target><![CDATA[Enter only numeric value]]></target>
+      </trans-unit>
+      <trans-unit id="59">
+        <source>Status changes successfully</source>
+        <target><![CDATA[Status changes successfully]]></target>
+      </trans-unit>
+      <trans-unit id="60">
+        <source>Record has been updated successfully</source>
+        <target><![CDATA[Record has been updated successfully]]></target>
+      </trans-unit>
+      <trans-unit id="61">
+        <source>Record has been deleted successfully</source>
+        <target><![CDATA[Record has been deleted successfully]]></target>
+      </trans-unit>
+      <trans-unit id="62">
+        <source>Record has been inserted successfully</source>
+        <target><![CDATA[Record has been inserted successfully]]></target>
+      </trans-unit>
+      <trans-unit id="63">
+        <source>Please select at least one</source>
+        <target><![CDATA[Please select at least one]]></target>
+      </trans-unit>
+      <trans-unit id="64">
+        <source>Name</source>
+        <target><![CDATA[Name]]></target>
+      </trans-unit>
+      <trans-unit id="65">
+        <source>Enabled</source>
+        <target><![CDATA[Enabled]]></target>
+      </trans-unit>
+      <trans-unit id="66">
+        <source>All</source>
+        <target><![CDATA[All]]></target>
+      </trans-unit>
+      <trans-unit id="67">
+        <source>InActive</source>
+        <target><![CDATA[InActive]]></target>
+      </trans-unit>
+      <trans-unit id="68">
+        <source>Name required</source>
+        <target><![CDATA[Name required]]></target>
+      </trans-unit>
+      <trans-unit id="69">
+        <source>Name already exists</source>
+        <target><![CDATA[Name already exists]]></target>
+      </trans-unit>
+      <trans-unit id="70">
+        <source>Status</source>
+        <target><![CDATA[Status]]></target>
+      </trans-unit>
+      <trans-unit id="71">
+        <source>Edit group</source>
+        <target><![CDATA[Edit group]]></target>
+      </trans-unit>
+      <trans-unit id="72">
+        <source>Record(s) not found</source>
+        <target><![CDATA[Record(s) not found]]></target>
+      </trans-unit>
+      <trans-unit id="73">
+        <source>Add new denomination</source>
+        <target><![CDATA[Add denomination]]></target>
+      </trans-unit>
+      <trans-unit id="74">
+        <source>Edit denomination</source>
+        <target><![CDATA[Edit denomination]]></target>
+      </trans-unit>
+      <trans-unit id="75">
+        <source>Save</source>
+        <target><![CDATA[Save]]></target>
+      </trans-unit>
+      <trans-unit id="76">
+        <source>Cancel</source>
+        <target><![CDATA[Cancel]]></target>
+      </trans-unit>
+      <trans-unit id="77">
+        <source>Denomination list</source>
+        <target><![CDATA[Denominations]]></target>
+      </trans-unit>
+      <trans-unit id="78">
+        <source>Row Name</source>
+        <target><![CDATA[Row Name]]></target>
+      </trans-unit>
+      <trans-unit id="79">
+        <source>Please select cemetery</source>
+        <target><![CDATA[Please select cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="80">
+        <source>Please select area</source>
+        <target><![CDATA[Please select area]]></target>
+      </trans-unit>
+      <trans-unit id="81">
+        <source>Please select section</source>
+        <target><![CDATA[Please select section]]></target>
+      </trans-unit>
+      <trans-unit id="82">
+        <source>Select Country</source>
+        <target><![CDATA[Select Country]]></target>
+      </trans-unit>
+      <trans-unit id="83">
+        <source>Select Cemetery</source>
+        <target><![CDATA[Select Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="84">
+        <source>Row User</source>
+        <target><![CDATA[Row User]]></target>
+      </trans-unit>
+      <trans-unit id="85">
+        <source>Please enter row name</source>
+        <target><![CDATA[Please enter row name]]></target>
+      </trans-unit>
+      <trans-unit id="86">
+        <source>Please select country</source>
+        <target><![CDATA[Please select country]]></target>
+      </trans-unit>
+      <trans-unit id="87">
+        <source>Select Cementery</source>
+        <target><![CDATA[Select Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="88">
+        <source>Select Area</source>
+        <target><![CDATA[Select Area]]></target>
+      </trans-unit>
+      <trans-unit id="89">
+        <source>Section Name</source>
+        <target><![CDATA[Section Name]]></target>
+      </trans-unit>
+      <trans-unit id="90">
+        <source>Add New Row</source>
+        <target><![CDATA[Add Row]]></target>
+      </trans-unit>
+      <trans-unit id="91">
+        <source>Edit Row</source>
+        <target><![CDATA[Edit Row]]></target>
+      </trans-unit>
+      <trans-unit id="92">
+        <source>Select Section</source>
+        <target><![CDATA[Select Section]]></target>
+      </trans-unit>
+      <trans-unit id="93">
+        <source>Row list</source>
+        <target><![CDATA[Rows]]></target>
+      </trans-unit>
+      <trans-unit id="94">
+        <source>Grave has been successfully surrendered to another grantee</source>
+        <target><![CDATA[Grave has been successfully transfered to another grantee]]></target>
+      </trans-unit>
+      <trans-unit id="95">
+        <source>First Name</source>
+        <target><![CDATA[First Name]]></target>
+      </trans-unit>
+      <trans-unit id="96">
+        <source>Surname</source>
+        <target><![CDATA[Surname]]></target>
+      </trans-unit>
+      <trans-unit id="97">
+        <source>Please select row</source>
+        <target><![CDATA[Please select row]]></target>
+      </trans-unit>
+      <trans-unit id="98">
+        <source>Please select plot</source>
+        <target><![CDATA[Please select Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="99">
+        <source>Please select grave</source>
+        <target><![CDATA[Please select grave]]></target>
+      </trans-unit>
+      <trans-unit id="100">
+        <source>Please select funeral director</source>
+        <target><![CDATA[Please select funeral director]]></target>
+      </trans-unit>
+      <trans-unit id="101">
+        <source>Select grantee for assign grave</source>
+        <target><![CDATA[Select grantee for assign grave]]></target>
+      </trans-unit>
+      <trans-unit id="102">
+        <source>Please select grantee</source>
+        <target><![CDATA[Please select grantee]]></target>
+      </trans-unit>
+      <trans-unit id="103">
+        <source>Select Grave Status</source>
+        <target><![CDATA[Select Grave Status]]></target>
+      </trans-unit>
+      <trans-unit id="104">
+        <source>Select Funeral Director</source>
+        <target><![CDATA[Select Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="105">
+        <source>Select Grantee Identity</source>
+        <target><![CDATA[Select Grantee Identity]]></target>
+      </trans-unit>
+      <trans-unit id="106">
+        <source>Select Stone Mason</source>
+        <target><![CDATA[Select Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="107">
+        <source>Next</source>
+        <target><![CDATA[Next]]></target>
+      </trans-unit>
+      <trans-unit id="108">
+        <source>Previous</source>
+        <target><![CDATA[Previous]]></target>
+      </trans-unit>
+      <trans-unit id="109">
+        <source>Grave Status</source>
+        <target><![CDATA[Grave Status]]></target>
+      </trans-unit>
+      <trans-unit id="110">
+        <source>Funeral Directory</source>
+        <target><![CDATA[Funeral Directory]]></target>
+      </trans-unit>
+      <trans-unit id="111">
+        <source>Grantee Identity</source>
+        <target><![CDATA[Grantee Identity]]></target>
+      </trans-unit>
+      <trans-unit id="112">
+        <source>Receipt Number</source>
+        <target><![CDATA[Receipt Number]]></target>
+      </trans-unit>
+      <trans-unit id="113">
+        <source>Control Number</source>
+        <target><![CDATA[Control Number]]></target>
+      </trans-unit>
+      <trans-unit id="114">
+        <source>Invoice Number</source>
+        <target><![CDATA[Invoice Number]]></target>
+      </trans-unit>
+      <trans-unit id="115">
+        <source>Date Of Purchase</source>
+        <target><![CDATA[Date Of Purchase]]></target>
+      </trans-unit>
+      <trans-unit id="116">
+        <source>Tenure Expiry Date</source>
+        <target><![CDATA[Tenure Expiry Date]]></target>
+      </trans-unit>
+      <trans-unit id="117">
+        <source>Cost</source>
+        <target><![CDATA[Cost]]></target>
+      </trans-unit>
+      <trans-unit id="118">
+        <source>Grantee First Name</source>
+        <target><![CDATA[Grantee First Name]]></target>
+      </trans-unit>
+      <trans-unit id="119">
+        <source>Grantee Middle Name</source>
+        <target><![CDATA[Grantee Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="120">
+        <source>Grantee Surname</source>
+        <target><![CDATA[Grantee Surname]]></target>
+      </trans-unit>
+      <trans-unit id="121">
+        <source>Grantee Relationship</source>
+        <target><![CDATA[Grantee Relationship]]></target>
+      </trans-unit>
+      <trans-unit id="122">
+        <source>Grantee Address Line 1</source>
+        <target><![CDATA[Grantee Address Line 1]]></target>
+      </trans-unit>
+      <trans-unit id="123">
+        <source>Grantee Address Line 2</source>
+        <target><![CDATA[Grantee Address Line 2]]></target>
+      </trans-unit>
+      <trans-unit id="124">
+        <source>Grantee DOB</source>
+        <target><![CDATA[Grantee DOB]]></target>
+      </trans-unit>
+      <trans-unit id="125">
+        <source>Grantee Id Number</source>
+        <target><![CDATA[Grantee Id Number]]></target>
+      </trans-unit>
+      <trans-unit id="126">
+        <source>Remarks 1</source>
+        <target><![CDATA[Remarks 1]]></target>
+      </trans-unit>
+      <trans-unit id="127">
+        <source>Remarks 2</source>
+        <target><![CDATA[Remarks 2]]></target>
+      </trans-unit>
+      <trans-unit id="128">
+        <source>Please enter funeral director</source>
+        <target><![CDATA[Please enter funeral director]]></target>
+      </trans-unit>
+      <trans-unit id="129">
+        <source>Please select stone mason</source>
+        <target><![CDATA[Please select stone mason]]></target>
+      </trans-unit>
+      <trans-unit id="130">
+        <source>Please select grantee identity</source>
+        <target><![CDATA[Please select grantee identity]]></target>
+      </trans-unit>
+      <trans-unit id="131">
+        <source>Please enter grantee first name</source>
+        <target><![CDATA[Please enter grantee first name]]></target>
+      </trans-unit>
+      <trans-unit id="132">
+        <source>Please enter grantee middle name</source>
+        <target><![CDATA[Please enter grantee middle name]]></target>
+      </trans-unit>
+      <trans-unit id="133">
+        <source>Please enter grantee surname</source>
+        <target><![CDATA[Please enter grantee surname]]></target>
+      </trans-unit>
+      <trans-unit id="134">
+        <source>TRr Grave to Another Grantee</source>
+        <target><![CDATA[Transfer Grave to Another Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="135">
+        <source>Grantee Grave Surrender History list</source>
+        <target><![CDATA[Grave History]]></target>
+      </trans-unit>
+      <trans-unit id="136">
+        <source>Select Plot</source>
+        <target><![CDATA[Select Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="137">
+        <source>Select Row</source>
+        <target><![CDATA[Select Row]]></target>
+      </trans-unit>
+      <trans-unit id="138">
+        <source>Assign</source>
+        <target><![CDATA[Assign]]></target>
+      </trans-unit>
+      <trans-unit id="139">
+        <source>Grave Number</source>
+        <target><![CDATA[Grave Number]]></target>
+      </trans-unit>
+      <trans-unit id="140">
+        <source>View Grave History</source>
+        <target><![CDATA[View Grave History]]></target>
+      </trans-unit>
+      <trans-unit id="141">
+        <source>Surrender Grave</source>
+        <target><![CDATA[Transfer Grave]]></target>
+      </trans-unit>
+      <trans-unit id="142">
+        <source>Edit Grantee Details</source>
+        <target><![CDATA[Edit Grantee Details]]></target>
+      </trans-unit>
+      <trans-unit id="143">
+        <source>Add New Grantee Grave</source>
+        <target><![CDATA[Purchase Grave]]></target>
+      </trans-unit>
+      <trans-unit id="144">
+        <source>Edit Grantee Grave</source>
+        <target><![CDATA[Edit Purchased Grave]]></target>
+      </trans-unit>
+      <trans-unit id="145">
+        <source>Select Grave</source>
+        <target><![CDATA[Select Grave]]></target>
+      </trans-unit>
+      <trans-unit id="146">
+        <source>Surrender From</source>
+        <target><![CDATA[Transfer From]]></target>
+      </trans-unit>
+      <trans-unit id="147">
+        <source>Surrender To</source>
+        <target><![CDATA[Transfer To]]></target>
+      </trans-unit>
+      <trans-unit id="148">
+        <source>Date Of Surrender</source>
+        <target><![CDATA[Date Of Transfer]]></target>
+      </trans-unit>
+      <trans-unit id="149">
+        <source>Grantee Grave list</source>
+        <target><![CDATA[Grave Details]]></target>
+      </trans-unit>
+      <trans-unit id="150">
+        <source>Informant First Name</source>
+        <target><![CDATA[First Name]]></target>
+      </trans-unit>
+      <trans-unit id="151">
+        <source>Informant Email</source>
+        <target><![CDATA[Email]]></target>
+      </trans-unit>
+      <trans-unit id="152">
+        <source>Chapel Booking</source>
+        <target><![CDATA[Chapel Booking]]></target>
+      </trans-unit>
+      <trans-unit id="153">
+        <source>No</source>
+        <target><![CDATA[No]]></target>
+      </trans-unit>
+      <trans-unit id="154">
+        <source>Yes</source>
+        <target><![CDATA[Yes]]></target>
+      </trans-unit>
+      <trans-unit id="155">
+        <source>Room Booking</source>
+        <target><![CDATA[Room Booking]]></target>
+      </trans-unit>
+      <trans-unit id="156">
+        <source>Middle Name</source>
+        <target><![CDATA[Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="157">
+        <source>Email</source>
+        <target><![CDATA[Email]]></target>
+      </trans-unit>
+      <trans-unit id="158">
+        <source>Telephone</source>
+        <target><![CDATA[Telephone]]></target>
+      </trans-unit>
+      <trans-unit id="159">
+        <source>Address</source>
+        <target><![CDATA[Address]]></target>
+      </trans-unit>
+      <trans-unit id="160">
+        <source>Suburb Town</source>
+        <target><![CDATA[Suburb Town]]></target>
+      </trans-unit>
+      <trans-unit id="161">
+        <source>Postal Code</source>
+        <target><![CDATA[Postal Code]]></target>
+      </trans-unit>
+      <trans-unit id="162">
+        <source>Country Name</source>
+        <target><![CDATA[Country]]></target>
+      </trans-unit>
+      <trans-unit id="163">
+        <source>Fax</source>
+        <target><![CDATA[Fax]]></target>
+      </trans-unit>
+      <trans-unit id="164">
+        <source>Chapel</source>
+        <target><![CDATA[Chapel]]></target>
+      </trans-unit>
+      <trans-unit id="165">
+        <source>Room</source>
+        <target><![CDATA[Room]]></target>
+      </trans-unit>
+      <trans-unit id="166">
+        <source>Special Instruction</source>
+        <target><![CDATA[Special Instruction]]></target>
+      </trans-unit>
+      <trans-unit id="167">
+        <source>Please enter surname</source>
+        <target><![CDATA[Please enter surname]]></target>
+      </trans-unit>
+      <trans-unit id="168">
+        <source>Please enter first name</source>
+        <target><![CDATA[Please enter first name]]></target>
+      </trans-unit>
+      <trans-unit id="169">
+        <source>Please enter email</source>
+        <target><![CDATA[Please enter email]]></target>
+      </trans-unit>
+      <trans-unit id="170">
+        <source>Please enter valid email</source>
+        <target><![CDATA[Please enter valid email]]></target>
+      </trans-unit>
+      <trans-unit id="171">
+        <source>Total</source>
+        <target><![CDATA[Total]]></target>
+      </trans-unit>
+      <trans-unit id="172">
+        <source>Edit Facility Booking</source>
+        <target><![CDATA[Edit Facility Booking]]></target>
+      </trans-unit>
+      <trans-unit id="173">
+        <source>Add New Stone Mason</source>
+        <target><![CDATA[Add Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="174">
+        <source>Edit Stone Mason</source>
+        <target><![CDATA[Manage Profile]]></target>
+      </trans-unit>
+      <trans-unit id="175">
+        <source>Facility Booking list</source>
+        <target><![CDATA[Facility Bookings]]></target>
+      </trans-unit>
+      <trans-unit id="176">
+        <source>Add new UnitType</source>
+        <target><![CDATA[Add UnitType]]></target>
+      </trans-unit>
+      <trans-unit id="177">
+        <source>Edit UnitType</source>
+        <target><![CDATA[Edit UnitType]]></target>
+      </trans-unit>
+      <trans-unit id="178">
+        <source>Unit Type list</source>
+        <target><![CDATA[Unit Types]]></target>
+      </trans-unit>
+      <trans-unit id="179">
+        <source>Area Name</source>
+        <target><![CDATA[Area Name]]></target>
+      </trans-unit>
+      <trans-unit id="180">
+        <source>Area Code</source>
+        <target><![CDATA[Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="181">
+        <source>Area Description</source>
+        <target><![CDATA[Area Description]]></target>
+      </trans-unit>
+      <trans-unit id="182">
+        <source>Area Control Number</source>
+        <target><![CDATA[Area Control Number]]></target>
+      </trans-unit>
+      <trans-unit id="183">
+        <source>Area User</source>
+        <target><![CDATA[Area User]]></target>
+      </trans-unit>
+      <trans-unit id="184">
+        <source>Please enter area name</source>
+        <target><![CDATA[Please enter area name]]></target>
+      </trans-unit>
+      <trans-unit id="185">
+        <source>Cementery Name</source>
+        <target><![CDATA[Cementery Name]]></target>
+      </trans-unit>
+      <trans-unit id="186">
+        <source>Add New Area</source>
+        <target><![CDATA[Add Area]]></target>
+      </trans-unit>
+      <trans-unit id="187">
+        <source>Edit Area</source>
+        <target><![CDATA[Edit Area]]></target>
+      </trans-unit>
+      <trans-unit id="188">
+        <source>Area list</source>
+        <target><![CDATA[Areas]]></target>
+      </trans-unit>
+      <trans-unit id="189">
+        <source>Description</source>
+        <target><![CDATA[Description]]></target>
+      </trans-unit>
+      <trans-unit id="190">
+        <source>Group list</source>
+        <target><![CDATA[Groups]]></target>
+      </trans-unit>
+      <trans-unit id="191">
+        <source>User list</source>
+        <target><![CDATA[Users]]></target>
+      </trans-unit>
+      <trans-unit id="192">
+        <source>Description required</source>
+        <target><![CDATA[Description required]]></target>
+      </trans-unit>
+      <trans-unit id="193">
+        <source>Edit permission</source>
+        <target><![CDATA[Edit permission]]></target>
+      </trans-unit>
+      <trans-unit id="194">
+        <source>Add new permission</source>
+        <target><![CDATA[Add Permission]]></target>
+      </trans-unit>
+      <trans-unit id="195">
+        <source>Info</source>
+        <target><![CDATA[Info]]></target>
+      </trans-unit>
+      <trans-unit id="196">
+        <source>Permission list</source>
+        <target><![CDATA[Permissions]]></target>
+      </trans-unit>
+      <trans-unit id="197">
+        <source>Add new Lodged By</source>
+        <target><![CDATA[Add Lodged By]]></target>
+      </trans-unit>
+      <trans-unit id="198">
+        <source>Edit Lodged By</source>
+        <target><![CDATA[Edit Lodged By]]></target>
+      </trans-unit>
+      <trans-unit id="199">
+        <source>Lodged By list</source>
+        <target><![CDATA[Lodged By]]></target>
+      </trans-unit>
+      <trans-unit id="200">
+        <source>Permissions</source>
+        <target><![CDATA[Permissions]]></target>
+      </trans-unit>
+      <trans-unit id="201">
+        <source>Permission required</source>
+        <target><![CDATA[Permission required]]></target>
+      </trans-unit>
+      <trans-unit id="202">
+        <source>Add new group</source>
+        <target><![CDATA[Add Group]]></target>
+      </trans-unit>
+      <trans-unit id="203">
+        <source>Save continue</source>
+        <target><![CDATA[Save continue]]></target>
+      </trans-unit>
+      <trans-unit id="204">
+        <source>Add new country</source>
+        <target><![CDATA[Add Country]]></target>
+      </trans-unit>
+      <trans-unit id="205">
+        <source>Edit country</source>
+        <target><![CDATA[Edit country]]></target>
+      </trans-unit>
+      <trans-unit id="206">
+        <source>Country list</source>
+        <target><![CDATA[Countries]]></target>
+      </trans-unit>
+      <trans-unit id="207">
+        <source>Cemetery Name</source>
+        <target><![CDATA[Cemetery Name]]></target>
+      </trans-unit>
+      <trans-unit id="208">
+        <source>Plot Name</source>
+        <target><![CDATA[Block/Plot Name]]></target>
+      </trans-unit>
+      <trans-unit id="209">
+        <source>Select Unit Type</source>
+        <target><![CDATA[Select Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="210">
+        <source>Length</source>
+        <target><![CDATA[Length]]></target>
+      </trans-unit>
+      <trans-unit id="211">
+        <source>Width</source>
+        <target><![CDATA[Width]]></target>
+      </trans-unit>
+      <trans-unit id="212">
+        <source>Height</source>
+        <target><![CDATA[Height]]></target>
+      </trans-unit>
+      <trans-unit id="213">
+        <source>Grave Detail</source>
+        <target><![CDATA[Grave Detail]]></target>
+      </trans-unit>
+      <trans-unit id="214">
+        <source>Please enter grave  name</source>
+        <target><![CDATA[Please enter grave number]]></target>
+      </trans-unit>
+      <trans-unit id="215">
+        <source>Please select unit type</source>
+        <target><![CDATA[Please select unit type]]></target>
+      </trans-unit>
+      <trans-unit id="216">
+        <source>Please select Country</source>
+        <target><![CDATA[Please select Country]]></target>
+      </trans-unit>
+      <trans-unit id="217">
+        <source>Search For Grave</source>
+        <target><![CDATA[Grave Search]]></target>
+      </trans-unit>
+      <trans-unit id="218">
+        <source>Grave Results</source>
+        <target><![CDATA[Grave Results]]></target>
+      </trans-unit>
+      <trans-unit id="219">
+        <source>Company Name</source>
+        <target><![CDATA[Company Name]]></target>
+      </trans-unit>
+      <trans-unit id="220">
+        <source>Select Work Type Stone Mason</source>
+        <target><![CDATA[Select Work Type Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="221">
+        <source>Work Type Stone Mason</source>
+        <target><![CDATA[Work Type Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="222">
+        <source>Town</source>
+        <target><![CDATA[Town]]></target>
+      </trans-unit>
+      <trans-unit id="223">
+        <source>State</source>
+        <target><![CDATA[State]]></target>
+      </trans-unit>
+      <trans-unit id="224">
+        <source>Fax Number</source>
+        <target><![CDATA[Fax Number]]></target>
+      </trans-unit>
+      <trans-unit id="225">
+        <source>Fax Area</source>
+        <target><![CDATA[Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="226">
+        <source>Accredited To</source>
+        <target><![CDATA[Accredited To]]></target>
+      </trans-unit>
+      <trans-unit id="227">
+        <source>Conatact Name</source>
+        <target><![CDATA[Contact Name]]></target>
+      </trans-unit>
+      <trans-unit id="228">
+        <source>Company Telephone</source>
+        <target><![CDATA[Company Telephone]]></target>
+      </trans-unit>
+      <trans-unit id="229">
+        <source>Company Area Number</source>
+        <target><![CDATA[Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="230">
+        <source>Comment</source>
+        <target><![CDATA[Comment]]></target>
+      </trans-unit>
+      <trans-unit id="231">
+        <source>Please select work type stone mason</source>
+        <target><![CDATA[Please select work type stone mason]]></target>
+      </trans-unit>
+      <trans-unit id="232">
+        <source>Stone Mason list</source>
+        <target><![CDATA[Stone Masons]]></target>
+      </trans-unit>
+      <trans-unit id="233">
+        <source>Select atleast one</source>
+        <target><![CDATA[Select atleast one]]></target>
+      </trans-unit>
+      <trans-unit id="234">
+        <source>Some information was missing</source>
+        <target><![CDATA[Some information was missing]]></target>
+      </trans-unit>
+      <trans-unit id="235">
+        <source>First name</source>
+        <target><![CDATA[First name]]></target>
+      </trans-unit>
+      <trans-unit id="236">
+        <source>Last name</source>
+        <target><![CDATA[Last name]]></target>
+      </trans-unit>
+      <trans-unit id="237">
+        <source>Username</source>
+        <target><![CDATA[Username]]></target>
+      </trans-unit>
+      <trans-unit id="238">
+        <source>Is active</source>
+        <target><![CDATA[Is active]]></target>
+      </trans-unit>
+      <trans-unit id="239">
+        <source>Is super admin</source>
+        <target><![CDATA[Is super admin]]></target>
+      </trans-unit>
+      <trans-unit id="240">
+        <source>Password</source>
+        <target><![CDATA[Password]]></target>
+      </trans-unit>
+      <trans-unit id="241">
+        <source>Password again</source>
+        <target><![CDATA[Password again]]></target>
+      </trans-unit>
+      <trans-unit id="242">
+        <source>First name required</source>
+        <target><![CDATA[First name required]]></target>
+      </trans-unit>
+      <trans-unit id="243">
+        <source>Last name required</source>
+        <target><![CDATA[Last name required]]></target>
+      </trans-unit>
+      <trans-unit id="244">
+        <source>Email address required</source>
+        <target><![CDATA[Email address required]]></target>
+      </trans-unit>
+      <trans-unit id="245">
+        <source>Invalid email address</source>
+        <target><![CDATA[Invalid email address]]></target>
+      </trans-unit>
+      <trans-unit id="246">
+        <source>Username required</source>
+        <target><![CDATA[Username required]]></target>
+      </trans-unit>
+      <trans-unit id="247">
+        <source>Password required</source>
+        <target><![CDATA[Password required]]></target>
+      </trans-unit>
+      <trans-unit id="248">
+        <source>Enter atleast 3 characters</source>
+        <target><![CDATA[Enter atleast 3 characters]]></target>
+      </trans-unit>
+      <trans-unit id="249">
+        <source>Enter atmost 10 characters</source>
+        <target><![CDATA[Enter atmost 10 characters]]></target>
+      </trans-unit>
+      <trans-unit id="250">
+        <source>Password again required</source>
+        <target><![CDATA[Password again required]]></target>
+      </trans-unit>
+      <trans-unit id="251">
+        <source>Password and password again must be same.</source>
+        <target><![CDATA[Password and password again must be same.]]></target>
+      </trans-unit>
+      <trans-unit id="252">
+        <source>Edit user</source>
+        <target><![CDATA[Edit user]]></target>
+      </trans-unit>
+      <trans-unit id="253">
+        <source>Add new user</source>
+        <target><![CDATA[Add User]]></target>
+      </trans-unit>
+      <trans-unit id="254">
+        <source>Select Services</source>
+        <target><![CDATA[Select Services]]></target>
+      </trans-unit>
+      <trans-unit id="255">
+        <source>code</source>
+        <target><![CDATA[Code]]></target>
+      </trans-unit>
+      <trans-unit id="256">
+        <source>Company name</source>
+        <target><![CDATA[Company name]]></target>
+      </trans-unit>
+      <trans-unit id="257">
+        <source>Address1</source>
+        <target><![CDATA[Address1]]></target>
+      </trans-unit>
+      <trans-unit id="258">
+        <source>Address2</source>
+        <target><![CDATA[Address2]]></target>
+      </trans-unit>
+      <trans-unit id="259">
+        <source>Address3</source>
+        <target><![CDATA[Address3]]></target>
+      </trans-unit>
+      <trans-unit id="260">
+        <source>PostCode</source>
+        <target><![CDATA[PostCode]]></target>
+      </trans-unit>
+      <trans-unit id="261">
+        <source>Phone</source>
+        <target><![CDATA[Phone]]></target>
+      </trans-unit>
+      <trans-unit id="262">
+        <source>Contact Telephone</source>
+        <target><![CDATA[Contact Telephone]]></target>
+      </trans-unit>
+      <trans-unit id="263">
+        <source>Please enter name</source>
+        <target><![CDATA[Please enter name]]></target>
+      </trans-unit>
+      <trans-unit id="264">
+        <source>Please enter comapny name</source>
+        <target><![CDATA[Please enter comapny name]]></target>
+      </trans-unit>
+      <trans-unit id="265">
+        <source>Add new funeral director</source>
+        <target><![CDATA[Add Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="266">
+        <source>Edit funeral director</source>
+        <target><![CDATA[Edit funeral director]]></target>
+      </trans-unit>
+      <trans-unit id="267">
+        <source>Funeral director list</source>
+        <target><![CDATA[Funeral Directors]]></target>
+      </trans-unit>
+      <trans-unit id="268">
+        <source>Purchase Grave</source>
+        <target><![CDATA[Grave Details]]></target>
+      </trans-unit>
+      <trans-unit id="269">
+        <source>Add New Grantee Details</source>
+        <target><![CDATA[Add Grantee Details]]></target>
+      </trans-unit>
+      <trans-unit id="270">
+        <source>Grantee Details list</source>
+        <target><![CDATA[Grantee Details]]></target>
+      </trans-unit>
+      <trans-unit id="271">
+        <source>Add new service</source>
+        <target><![CDATA[Add Service]]></target>
+      </trans-unit>
+      <trans-unit id="272">
+        <source>Edit service</source>
+        <target><![CDATA[Edit service]]></target>
+      </trans-unit>
+      <trans-unit id="273">
+        <source>Funeral director service list</source>
+        <target><![CDATA[Funeral Director Services]]></target>
+      </trans-unit>
+      <trans-unit id="274">
+        <source>Grantee Dob</source>
+        <target><![CDATA[Grantee Dob]]></target>
+      </trans-unit>
+      <trans-unit id="275">
+        <source>Grantee Identity Id</source>
+        <target><![CDATA[Grantee Identity Id]]></target>
+      </trans-unit>
+      <trans-unit id="276">
+        <source>Search For Grantee</source>
+        <target><![CDATA[Grantee Search]]></target>
+      </trans-unit>
+      <trans-unit id="277">
+        <source>Advance Search</source>
+        <target><![CDATA[Advance Search]]></target>
+      </trans-unit>
+      <trans-unit id="278">
+        <source>Date of Purchase</source>
+        <target><![CDATA[Date of Purchase]]></target>
+      </trans-unit>
+      <trans-unit id="279">
+        <source>Grantee Results</source>
+        <target><![CDATA[Grantee Results]]></target>
+      </trans-unit>
+      <trans-unit id="280">
+        <source>Add new Service Type</source>
+        <target><![CDATA[Add Service Type]]></target>
+      </trans-unit>
+      <trans-unit id="281">
+        <source>Edit Service Type</source>
+        <target><![CDATA[Edit Service Type]]></target>
+      </trans-unit>
+      <trans-unit id="282">
+        <source>Service Type list</source>
+        <target><![CDATA[Service Types]]></target>
+      </trans-unit>
+      <trans-unit id="283">
+        <source>Select user role</source>
+        <target><![CDATA[Select user role]]></target>
+      </trans-unit>
+      <trans-unit id="284">
+        <source>Organisation</source>
+        <target><![CDATA[Organisation]]></target>
+      </trans-unit>
+      <trans-unit id="285">
+        <source>Suburb</source>
+        <target><![CDATA[Suburb]]></target>
+      </trans-unit>
+      <trans-unit id="286">
+        <source>Contact Phone</source>
+        <target><![CDATA[Contact Phone]]></target>
+      </trans-unit>
+      <trans-unit id="287">
+        <source>Cemetery required</source>
+        <target><![CDATA[Cemetery required]]></target>
+      </trans-unit>
+      <trans-unit id="288">
+        <source>Country required</source>
+        <target><![CDATA[Country required]]></target>
+      </trans-unit>
+      <trans-unit id="289">
+        <source>User role required</source>
+        <target><![CDATA[User role required]]></target>
+      </trans-unit>
+      <trans-unit id="290">
+        <source>Welcome to Interments</source>
+        <target><![CDATA[Welcome to Interments]]></target>
+      </trans-unit>
+      <trans-unit id="291">
+        <source>User Role</source>
+        <target><![CDATA[User Role]]></target>
+      </trans-unit>
+      <trans-unit id="292">
+        <source>Add new work type stone mason</source>
+        <target><![CDATA[Add WorkType Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="293">
+        <source>Edit work type stone mason</source>
+        <target><![CDATA[Edit WorkType Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="294">
+        <source>Work type stone mason list</source>
+        <target><![CDATA[WorkType Stone Masons]]></target>
+      </trans-unit>
+      <trans-unit id="295">
+        <source>Add New Grave</source>
+        <target><![CDATA[Add Grave]]></target>
+      </trans-unit>
+      <trans-unit id="296">
+        <source>Edit Grave</source>
+        <target><![CDATA[Edit Grave]]></target>
+      </trans-unit>
+      <trans-unit id="297">
+        <source>Grave list</source>
+        <target><![CDATA[Graves]]></target>
+      </trans-unit>
+      <trans-unit id="298">
+        <source>Plot User</source>
+        <target><![CDATA[Block/Plot User]]></target>
+      </trans-unit>
+      <trans-unit id="299">
+        <source>Depth</source>
+        <target><![CDATA[Depth]]></target>
+      </trans-unit>
+      <trans-unit id="300">
+        <source>Please enter plot  name</source>
+        <target><![CDATA[Please enter block/plot name]]></target>
+      </trans-unit>
+      <trans-unit id="301">
+        <source>Add New Plot</source>
+        <target><![CDATA[Add Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="302">
+        <source>Edit Plot</source>
+        <target><![CDATA[Edit Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="303">
+        <source>Plot list</source>
+        <target><![CDATA[Blocks/Plots]]></target>
+      </trans-unit>
+      <trans-unit id="304">
+        <source>Language Name</source>
+        <target><![CDATA[Language Name]]></target>
+      </trans-unit>
+      <trans-unit id="305">
+        <source>Culture</source>
+        <target><![CDATA[Culture]]></target>
+      </trans-unit>
+      <trans-unit id="306">
+        <source>Default</source>
+        <target><![CDATA[Default]]></target>
+      </trans-unit>
+      <trans-unit id="307">
+        <source>Add new Language</source>
+        <target><![CDATA[Add Language]]></target>
+      </trans-unit>
+      <trans-unit id="308">
+        <source>Edit Language</source>
+        <target><![CDATA[Edit Language]]></target>
+      </trans-unit>
+      <trans-unit id="309">
+        <source>Language list</source>
+        <target><![CDATA[Languages]]></target>
+      </trans-unit>
+      <trans-unit id="310">
+        <source>Informant Surname</source>
+        <target><![CDATA[Surname]]></target>
+      </trans-unit>
+      <trans-unit id="311">
+        <source>Select Grave Statuss</source>
+        <target><![CDATA[Select Grave Status]]></target>
+      </trans-unit>
+      <trans-unit id="312">
+        <source>Select Denomination</source>
+        <target><![CDATA[Select Denomination]]></target>
+      </trans-unit>
+      <trans-unit id="313">
+        <source>Select Service Type</source>
+        <target><![CDATA[Select Service Type]]></target>
+      </trans-unit>
+      <trans-unit id="314">
+        <source>Select Disease</source>
+        <target><![CDATA[Select Disease]]></target>
+      </trans-unit>
+      <trans-unit id="315">
+        <source>Select Coffine Type</source>
+        <target><![CDATA[Select Coffin Type]]></target>
+      </trans-unit>
+      <trans-unit id="316">
+        <source>Select Lodged BY</source>
+        <target><![CDATA[Select Lodged BY]]></target>
+      </trans-unit>
+      <trans-unit id="317">
+        <source>Service Type</source>
+        <target><![CDATA[Service Type]]></target>
+      </trans-unit>
+      <trans-unit id="318">
+        <source>Select Desease</source>
+        <target><![CDATA[Select Disease]]></target>
+      </trans-unit>
+      <trans-unit id="319">
+        <source>Select Coffin Type</source>
+        <target><![CDATA[Select Coffin Type]]></target>
+      </trans-unit>
+      <trans-unit id="320">
+        <source>Select Lodged By</source>
+        <target><![CDATA[Select Lodged By]]></target>
+      </trans-unit>
+      <trans-unit id="321">
+        <source>Lodged By Name</source>
+        <target><![CDATA[Lodged By Name]]></target>
+      </trans-unit>
+      <trans-unit id="322">
+        <source>Deceased Place of Death</source>
+        <target><![CDATA[Place of Death]]></target>
+      </trans-unit>
+      <trans-unit id="323">
+        <source>Deceased Country of Death</source>
+        <target><![CDATA[Country of Death]]></target>
+      </trans-unit>
+      <trans-unit id="324">
+        <source>Deceased Country of Birth</source>
+        <target><![CDATA[Country of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="325">
+        <source>Deceased Place of Birth</source>
+        <target><![CDATA[Place of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="326">
+        <source>Deceased Date of Death</source>
+        <target><![CDATA[Date of Death]]></target>
+      </trans-unit>
+      <trans-unit id="327">
+        <source>Deceased Age</source>
+        <target><![CDATA[Age]]></target>
+      </trans-unit>
+      <trans-unit id="328">
+        <source>Deceased Surname</source>
+        <target><![CDATA[Deceased Surname]]></target>
+      </trans-unit>
+      <trans-unit id="329">
+        <source>Deceased First Name</source>
+        <target><![CDATA[Deceased First Name]]></target>
+      </trans-unit>
+      <trans-unit id="330">
+        <source>Deceased Last Name</source>
+        <target><![CDATA[Deceased Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="331">
+        <source>Deceased Other Surname</source>
+        <target><![CDATA[Deceased Other Surname]]></target>
+      </trans-unit>
+      <trans-unit id="332">
+        <source>Deceased Other First Name</source>
+        <target><![CDATA[Deceased Other First Name]]></target>
+      </trans-unit>
+      <trans-unit id="333">
+        <source>Deceased Other Middle Name</source>
+        <target><![CDATA[Deceased Other Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="334">
+        <source>Deceased Usual Address</source>
+        <target><![CDATA[Usual Address]]></target>
+      </trans-unit>
+      <trans-unit id="335">
+        <source>Deceased Subrb Town</source>
+        <target><![CDATA[Suburb/Town]]></target>
+      </trans-unit>
+      <trans-unit id="336">
+        <source>Deceased Postal Code</source>
+        <target><![CDATA[Postal Code]]></target>
+      </trans-unit>
+      <trans-unit id="337">
+        <source>Deceased Country</source>
+        <target><![CDATA[Country]]></target>
+      </trans-unit>
+      <trans-unit id="338">
+        <source>Deceased Marital Status</source>
+        <target><![CDATA[Marital Status]]></target>
+      </trans-unit>
+      <trans-unit id="339">
+        <source>Deceased Partner Name</source>
+        <target><![CDATA[Partner Name]]></target>
+      </trans-unit>
+      <trans-unit id="340">
+        <source>Deceased Partner Surname</source>
+        <target><![CDATA[Partner Surname]]></target>
+      </trans-unit>
+      <trans-unit id="341">
+        <source>Deceased Father Name</source>
+        <target><![CDATA[Father Name]]></target>
+      </trans-unit>
+      <trans-unit id="342">
+        <source>Deceased Father Surname</source>
+        <target><![CDATA[Father Surname]]></target>
+      </trans-unit>
+      <trans-unit id="343">
+        <source>Deceased Mother Name</source>
+        <target><![CDATA[Mother Name]]></target>
+      </trans-unit>
+      <trans-unit id="344">
+        <source>Deceased Mother Maiden Surname</source>
+        <target><![CDATA[Mother Maiden Surname]]></target>
+      </trans-unit>
+      <trans-unit id="345">
+        <source>Deceased Children 1</source>
+        <target><![CDATA[Children 1]]></target>
+      </trans-unit>
+      <trans-unit id="346">
+        <source>Deceased Children 2</source>
+        <target><![CDATA[Children 2]]></target>
+      </trans-unit>
+      <trans-unit id="347">
+        <source>Deceased Children 3</source>
+        <target><![CDATA[Children 3]]></target>
+      </trans-unit>
+      <trans-unit id="348">
+        <source>Deceased Children 4</source>
+        <target><![CDATA[Children 4]]></target>
+      </trans-unit>
+      <trans-unit id="349">
+        <source>Deceased Children 5</source>
+        <target><![CDATA[Children 5]]></target>
+      </trans-unit>
+      <trans-unit id="350">
+        <source>Deceased Children 6</source>
+        <target><![CDATA[Children 6]]></target>
+      </trans-unit>
+      <trans-unit id="351">
+        <source>Deceased Children 7</source>
+        <target><![CDATA[Children 7]]></target>
+      </trans-unit>
+      <trans-unit id="352">
+        <source>Deceased Children 8</source>
+        <target><![CDATA[Children 8]]></target>
+      </trans-unit>
+      <trans-unit id="353">
+        <source>Deceased Children 9</source>
+        <target><![CDATA[Children 9]]></target>
+      </trans-unit>
+      <trans-unit id="354">
+        <source>Deceased Gener</source>
+        <target><![CDATA[Gender]]></target>
+      </trans-unit>
+      <trans-unit id="355">
+        <source>Relationship To Deceased</source>
+        <target><![CDATA[Relationship To Deceased]]></target>
+      </trans-unit>
+      <trans-unit id="356">
+        <source>Informant Middle Name</source>
+        <target><![CDATA[Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="357">
+        <source>Informant Fax</source>
+        <target><![CDATA[Fax]]></target>
+      </trans-unit>
+      <trans-unit id="358">
+        <source>Informant Telephone</source>
+        <target><![CDATA[Telephone]]></target>
+      </trans-unit>
+      <trans-unit id="359">
+        <source>Informant Address</source>
+        <target><![CDATA[Address]]></target>
+      </trans-unit>
+      <trans-unit id="360">
+        <source>Informant Address</source>
+        <target><![CDATA[Address]]></target>
+      </trans-unit>
+      <trans-unit id="361">
+        <source>Informant Postal Code</source>
+        <target><![CDATA[Postal Code]]></target>
+      </trans-unit>
+      <trans-unit id="362">
+        <source>Informant Country</source>
+        <target><![CDATA[Country]]></target>
+      </trans-unit>
+      <trans-unit id="363">
+        <source>Date Notified</source>
+        <target><![CDATA[Date Notified]]></target>
+      </trans-unit>
+      <trans-unit id="364">
+        <source>Consultant</source>
+        <target><![CDATA[Consultant]]></target>
+      </trans-unit>
+      <trans-unit id="365">
+        <source>Service Booking Time From</source>
+        <target><![CDATA[Service Booking Time From]]></target>
+      </trans-unit>
+      <trans-unit id="366">
+        <source>Service Booking Time To</source>
+        <target><![CDATA[Service Booking Time To]]></target>
+      </trans-unit>
+      <trans-unit id="367">
+        <source>Service Booking Day</source>
+        <target><![CDATA[Service Booking Day]]></target>
+      </trans-unit>
+      <trans-unit id="368">
+        <source>Death Certificate</source>
+        <target><![CDATA[Death Certificate]]></target>
+      </trans-unit>
+      <trans-unit id="369">
+        <source>Own Clergy</source>
+        <target><![CDATA[Own Clergy]]></target>
+      </trans-unit>
+      <trans-unit id="370">
+        <source>Clergy Name</source>
+        <target><![CDATA[Clergy Name]]></target>
+      </trans-unit>
+      <trans-unit id="371">
+        <source>Coffin Surcharge</source>
+        <target><![CDATA[Coffin Surcharge]]></target>
+      </trans-unit>
+      <trans-unit id="372">
+        <source>Burning Drum</source>
+        <target><![CDATA[Burning Drum]]></target>
+      </trans-unit>
+      <trans-unit id="373">
+        <source>Fireworks</source>
+        <target><![CDATA[Fireworks]]></target>
+      </trans-unit>
+      <trans-unit id="374">
+        <source>Facility</source>
+        <target><![CDATA[Facility]]></target>
+      </trans-unit>
+      <trans-unit id="375">
+        <source>Facility From</source>
+        <target><![CDATA[Facility From]]></target>
+      </trans-unit>
+      <trans-unit id="376">
+        <source>Facility To</source>
+        <target><![CDATA[Facility To]]></target>
+      </trans-unit>
+      <trans-unit id="377">
+        <source>File Location</source>
+        <target><![CDATA[File Location]]></target>
+      </trans-unit>
+      <trans-unit id="378">
+        <source>Coffin Length</source>
+        <target><![CDATA[Coffin Length]]></target>
+      </trans-unit>
+      <trans-unit id="379">
+        <source>Coffin Width</source>
+        <target><![CDATA[Coffin Width]]></target>
+      </trans-unit>
+      <trans-unit id="380">
+        <source>Coffin Height</source>
+        <target><![CDATA[Coffin Height]]></target>
+      </trans-unit>
+      <trans-unit id="381">
+        <source>Chapel Time From</source>
+        <target><![CDATA[Time From]]></target>
+      </trans-unit>
+      <trans-unit id="382">
+        <source>Chapel Time To</source>
+        <target><![CDATA[Time To]]></target>
+      </trans-unit>
+      <trans-unit id="383">
+        <source>Room Time_from</source>
+        <target><![CDATA[Time_from]]></target>
+      </trans-unit>
+      <trans-unit id="384">
+        <source>Room Time_to</source>
+        <target><![CDATA[Time_to]]></target>
+      </trans-unit>
+      <trans-unit id="385">
+        <source>Monument</source>
+        <target><![CDATA[Monument]]></target>
+      </trans-unit>
+      <trans-unit id="386">
+        <source>Please enter deceased surname</source>
+        <target><![CDATA[Please enter deceased surname]]></target>
+      </trans-unit>
+      <trans-unit id="387">
+        <source>Please enter deceased first name</source>
+        <target><![CDATA[Please enter deceased first name]]></target>
+      </trans-unit>
+      <trans-unit id="388">
+        <source>Please enter deceased middle name</source>
+        <target><![CDATA[Please enter deceased middle name]]></target>
+      </trans-unit>
+      <trans-unit id="389">
+        <source>Please enter valid informant email</source>
+        <target><![CDATA[Please enter valid informant email]]></target>
+      </trans-unit>
+      <trans-unit id="390">
+        <source>Deceased Name</source>
+        <target><![CDATA[Deceased Name]]></target>
+      </trans-unit>
+      <trans-unit id="391">
+        <source>Service Date</source>
+        <target><![CDATA[Service Date]]></target>
+      </trans-unit>
+      <trans-unit id="392">
+        <source>Service Time from</source>
+        <target><![CDATA[Service Time from]]></target>
+      </trans-unit>
+      <trans-unit id="393">
+        <source>Service Time To</source>
+        <target><![CDATA[Service Time To]]></target>
+      </trans-unit>
+      <trans-unit id="394">
+        <source>Funeral director</source>
+        <target><![CDATA[Funeral director]]></target>
+      </trans-unit>
+      <trans-unit id="395">
+        <source>Taken By</source>
+        <target><![CDATA[Taken By]]></target>
+      </trans-unit>
+      <trans-unit id="396">
+        <source>Add Booking</source>
+        <target><![CDATA[Add Booking]]></target>
+      </trans-unit>
+      <trans-unit id="397">
+        <source>Edit Booking</source>
+        <target><![CDATA[Edit Booking]]></target>
+      </trans-unit>
+      <trans-unit id="398">
+        <source>Affiliation</source>
+        <target><![CDATA[Affiliation]]></target>
+      </trans-unit>
+      <trans-unit id="399">
+        <source>List Of Bookings</source>
+        <target><![CDATA[Bookings]]></target>
+      </trans-unit>
+      <trans-unit id="400">
+        <source>Add new disease</source>
+        <target><![CDATA[Add Disease]]></target>
+      </trans-unit>
+      <trans-unit id="401">
+        <source>Edit disease</source>
+        <target><![CDATA[Edit Disease]]></target>
+      </trans-unit>
+      <trans-unit id="402">
+        <source>Disease list</source>
+        <target><![CDATA[Diseases]]></target>
+      </trans-unit>
+      <trans-unit id="403">
+        <source>Add new coffin</source>
+        <target><![CDATA[Add Coffin]]></target>
+      </trans-unit>
+      <trans-unit id="404">
+        <source>Edit coffin</source>
+        <target><![CDATA[Edit coffin]]></target>
+      </trans-unit>
+      <trans-unit id="405">
+        <source>Coffin list</source>
+        <target><![CDATA[Coffins]]></target>
+      </trans-unit>
+      <trans-unit id="406">
+        <source>Url</source>
+        <target><![CDATA[Url]]></target>
+      </trans-unit>
+      <trans-unit id="407">
+        <source>Suburb town</source>
+        <target><![CDATA[Suburb town]]></target>
+      </trans-unit>
+      <trans-unit id="408">
+        <source>Postcode</source>
+        <target><![CDATA[Postcode]]></target>
+      </trans-unit>
+      <trans-unit id="409">
+        <source>URL</source>
+        <target><![CDATA[URL]]></target>
+      </trans-unit>
+      <trans-unit id="410">
+        <source>Add new cemetery</source>
+        <target><![CDATA[Add Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="411">
+        <source>Edit cemetery</source>
+        <target><![CDATA[Edit cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="412">
+        <source>Cemetery list</source>
+        <target><![CDATA[Cemeteries]]></target>
+      </trans-unit>
+      <trans-unit id="413">
+        <source>Section Code</source>
+        <target><![CDATA[Section Code]]></target>
+      </trans-unit>
+      <trans-unit id="414">
+        <source>First Grave</source>
+        <target><![CDATA[First Grave]]></target>
+      </trans-unit>
+      <trans-unit id="415">
+        <source>Last Grave</source>
+        <target><![CDATA[Last Grave]]></target>
+      </trans-unit>
+      <trans-unit id="416">
+        <source>Section User</source>
+        <target><![CDATA[Section User]]></target>
+      </trans-unit>
+      <trans-unit id="417">
+        <source>Please enter section name</source>
+        <target><![CDATA[Please enter section name]]></target>
+      </trans-unit>
+      <trans-unit id="418">
+        <source>Add New Section</source>
+        <target><![CDATA[Add Section]]></target>
+      </trans-unit>
+      <trans-unit id="419">
+        <source>Edit Section</source>
+        <target><![CDATA[Edit Section]]></target>
+      </trans-unit>
+      <trans-unit id="420">
+        <source>Section list</source>
+        <target><![CDATA[Sections]]></target>
+      </trans-unit>
+      <trans-unit id="421">
+        <source>Welcome</source>
+        <target><![CDATA[Welcome]]></target>
+      </trans-unit>
+      <trans-unit id="422">
+        <source>Save &amp; continue</source>
+        <target><![CDATA[Save &amp; continue]]></target>
+      </trans-unit>
+      <trans-unit id="423">
+        <source>Step 1</source>
+        <target><![CDATA[Step 1]]></target>
+      </trans-unit>
+      <trans-unit id="424">
+        <source>Step 2</source>
+        <target><![CDATA[Step 2]]></target>
+      </trans-unit>
+      <trans-unit id="425">
+        <source>Step 3</source>
+        <target><![CDATA[Step 3]]></target>
+      </trans-unit>
+      <trans-unit id="426">
+        <source>Step 4</source>
+        <target><![CDATA[Step 4]]></target>
+      </trans-unit>
+      <trans-unit id="427">
+        <source>Service-Booking Step-1</source>
+        <target><![CDATA[Service-Booking Step-1]]></target>
+      </trans-unit>
+      <trans-unit id="428">
+        <source>Grave details</source>
+        <target><![CDATA[Grave details]]></target>
+      </trans-unit>
+      <trans-unit id="429">
+        <source>Grantee details</source>
+        <target><![CDATA[Grantee details]]></target>
+      </trans-unit>
+      <trans-unit id="430">
+        <source>Monument Details (openings/internals)</source>
+        <target><![CDATA[Monument Details (openings/internals)]]></target>
+      </trans-unit>
+      <trans-unit id="431">
+        <source>Service-Booking Step-2</source>
+        <target><![CDATA[Service-Booking Step-2]]></target>
+      </trans-unit>
+      <trans-unit id="432">
+        <source>Service-Booking Step-3</source>
+        <target><![CDATA[Service-Booking Step-3]]></target>
+      </trans-unit>
+      <trans-unit id="433">
+        <source>Service-Booking Step-4</source>
+        <target><![CDATA[Service-Booking Step-4]]></target>
+      </trans-unit>
+      <trans-unit id="434">
+        <source>Add New Denomination</source>
+        <target><![CDATA[Add Denomination]]></target>
+      </trans-unit>
+      <trans-unit id="435">
+        <source>Edit Denomination</source>
+        <target><![CDATA[Edit Denomination]]></target>
+      </trans-unit>
+      <trans-unit id="436">
+        <source>Deceased Middle Name</source>
+        <target><![CDATA[Deceased Middle Name]]></target>
+      </trans-unit>
+      <trans-unit id="437">
+        <source>Interment Date</source>
+        <target><![CDATA[Interment Date]]></target>
+      </trans-unit>
+      <trans-unit id="438">
+        <source>Deceased Date of Birth</source>
+        <target><![CDATA[Date Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="439">
+        <source>Deceased Place Of Birth</source>
+        <target><![CDATA[Place Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="440">
+        <source>Deceased Country Id Of Birth</source>
+        <target><![CDATA[Country Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="441">
+        <source>Select Interment Identity</source>
+        <target><![CDATA[Select Interment Identity]]></target>
+      </trans-unit>
+      <trans-unit id="442">
+        <source>	Deceased First Name</source>
+        <target><![CDATA[First Name]]></target>
+      </trans-unit>
+      <trans-unit id="443">
+        <source>	Deceased Surname</source>
+        <target><![CDATA[Surname]]></target>
+      </trans-unit>
+      <trans-unit id="444">
+        <source>Deceased Dob</source>
+        <target><![CDATA[Dob]]></target>
+      </trans-unit>
+      <trans-unit id="445">
+        <source>Deceased Birth Country</source>
+        <target><![CDATA[Birth Country]]></target>
+      </trans-unit>
+      <trans-unit id="446">
+        <source>Deceased Birth Place</source>
+        <target><![CDATA[Birth Place]]></target>
+      </trans-unit>
+      <trans-unit id="447">
+        <source>Search For Interment</source>
+        <target><![CDATA[Interment Search]]></target>
+      </trans-unit>
+      <trans-unit id="448">
+        <source>Date of interment</source>
+        <target><![CDATA[Date of interment]]></target>
+      </trans-unit>
+      <trans-unit id="449">
+        <source>Interment Results</source>
+        <target><![CDATA[Interment Results]]></target>
+      </trans-unit>
+      <trans-unit id="450">
+        <source>Surrender Grave to Grantee</source>
+        <target><![CDATA[Transfer Grave]]></target>
+      </trans-unit>
+      <trans-unit id="451">
+        <source>Grantee Grave Surrender History List</source>
+        <target><![CDATA[Grave History]]></target>
+      </trans-unit>
+      <trans-unit id="452">
+        <source>Please select valid date</source>
+        <target><![CDATA[Please select valid date]]></target>
+      </trans-unit>
+      <trans-unit id="453">
+        <source>Please select greater than or equal current date</source>
+        <target><![CDATA[Please select greater than or equal current date]]></target>
+      </trans-unit>
+      <trans-unit id="454">
+        <source>Add Facility Booking</source>
+        <target><![CDATA[Add Facility Booking]]></target>
+      </trans-unit>
+      <trans-unit id="455">
+        <source>Add New Unit Type</source>
+        <target><![CDATA[Add Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="456">
+        <source>Edit Unit Type</source>
+        <target><![CDATA[Edit Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="457">
+        <source>Add New Permission</source>
+        <target><![CDATA[Add Permission]]></target>
+      </trans-unit>
+      <trans-unit id="458">
+        <source>Edit Permission</source>
+        <target><![CDATA[Edit Permission]]></target>
+      </trans-unit>
+      <trans-unit id="459">
+        <source>Add New Lodged By</source>
+        <target><![CDATA[Add Lodged By]]></target>
+      </trans-unit>
+      <trans-unit id="460">
+        <source>Add New Group</source>
+        <target><![CDATA[Add Group]]></target>
+      </trans-unit>
+      <trans-unit id="461">
+        <source>Edit Group</source>
+        <target><![CDATA[Edit Group]]></target>
+      </trans-unit>
+      <trans-unit id="462">
+        <source>Add New Country</source>
+        <target><![CDATA[Add Country]]></target>
+      </trans-unit>
+      <trans-unit id="463">
+        <source>Edit Country</source>
+        <target><![CDATA[Edit Country]]></target>
+      </trans-unit>
+      <trans-unit id="464">
+        <source>Enter atmost 25 characters</source>
+        <target><![CDATA[Enter atmost 25 characters]]></target>
+      </trans-unit>
+      <trans-unit id="465">
+        <source>Edit User</source>
+        <target><![CDATA[Edit User]]></target>
+      </trans-unit>
+      <trans-unit id="466">
+        <source>Add New User</source>
+        <target><![CDATA[Add User]]></target>
+      </trans-unit>
+      <trans-unit id="467">
+        <source>Add New Funeral Director</source>
+        <target><![CDATA[Add Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="468">
+        <source>Edit Funeral Director</source>
+        <target><![CDATA[Manage Profile]]></target>
+      </trans-unit>
+      <trans-unit id="469">
+        <source>Add New Service</source>
+        <target><![CDATA[Add Service]]></target>
+      </trans-unit>
+      <trans-unit id="470">
+        <source>Edit Service</source>
+        <target><![CDATA[Edit Service]]></target>
+      </trans-unit>
+      <trans-unit id="471">
+        <source>Add New Service Type</source>
+        <target><![CDATA[Add Service Type]]></target>
+      </trans-unit>
+      <trans-unit id="472">
+        <source>Select Cemetery Country</source>
+        <target><![CDATA[Select Cemetery Country]]></target>
+      </trans-unit>
+      <trans-unit id="473">
+        <source>Select User Country</source>
+        <target><![CDATA[Select User Country]]></target>
+      </trans-unit>
+      <trans-unit id="474">
+        <source>User Country</source>
+        <target><![CDATA[User Country]]></target>
+      </trans-unit>
+      <trans-unit id="475">
+        <source> User Country required</source>
+        <target><![CDATA[User Country required]]></target>
+      </trans-unit>
+      <trans-unit id="476">
+        <source>Cemetery Country required</source>
+        <target><![CDATA[Cemetery Country required]]></target>
+      </trans-unit>
+      <trans-unit id="477">
+        <source>Search Grave</source>
+        <target><![CDATA[Search Grave]]></target>
+      </trans-unit>
+      <trans-unit id="478">
+        <source>Search Grantee</source>
+        <target><![CDATA[Search Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="479">
+        <source>Log Out</source>
+        <target><![CDATA[Log Out]]></target>
+      </trans-unit>
+      <trans-unit id="480">
+        <source>Add New Work Type Stone Mason</source>
+        <target><![CDATA[Add WorkType Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="481">
+        <source>Edit Work Type Stone Mason</source>
+        <target><![CDATA[Edit WorkType Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="482">
+        <source>Add New Language</source>
+        <target><![CDATA[Add Language]]></target>
+      </trans-unit>
+      <trans-unit id="483">
+        <source>Record has been finalized successfully</source>
+        <target><![CDATA[Record has been finalized successfully]]></target>
+      </trans-unit>
+      <trans-unit id="484">
+        <source>Select Country Of Death</source>
+        <target><![CDATA[Select Country Of Death]]></target>
+      </trans-unit>
+      <trans-unit id="485">
+        <source>Select Country Of Birth</source>
+        <target><![CDATA[Select Country Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="486">
+        <source>Children of Deceased</source>
+        <target><![CDATA[Children of Deceased]]></target>
+      </trans-unit>
+      <trans-unit id="487">
+        <source>Informant Suburb Town</source>
+        <target><![CDATA[Suburb/Town]]></target>
+      </trans-unit>
+      <trans-unit id="488">
+        <source>From</source>
+        <target><![CDATA[From]]></target>
+      </trans-unit>
+      <trans-unit id="489">
+        <source>To</source>
+        <target><![CDATA[To]]></target>
+      </trans-unit>
+      <trans-unit id="490">
+        <source>File Location </source>
+        <target><![CDATA[File Location]]></target>
+      </trans-unit>
+      <trans-unit id="491">
+        <source>Cemetery Application</source>
+        <target><![CDATA[Cemetery Application]]></target>
+      </trans-unit>
+      <trans-unit id="492">
+        <source>Burial Booking Form</source>
+        <target><![CDATA[Burial Booking Form]]></target>
+      </trans-unit>
+      <trans-unit id="493">
+        <source>Ashes Booking Form</source>
+        <target><![CDATA[Ashes Booking Form]]></target>
+      </trans-unit>
+      <trans-unit id="494">
+        <source>Exhumation Booking From</source>
+        <target><![CDATA[Exhumation Booking From]]></target>
+      </trans-unit>
+      <trans-unit id="495">
+        <source>Remains Booking From</source>
+        <target><![CDATA[Remains Booking From]]></target>
+      </trans-unit>
+      <trans-unit id="496">
+        <source>Health Order</source>
+        <target><![CDATA[HealthDepartment Order]]></target>
+      </trans-unit>
+      <trans-unit id="497">
+        <source>Court Order</source>
+        <target><![CDATA[Court Order]]></target>
+      </trans-unit>
+      <trans-unit id="498">
+        <source>Checked Funeral Directors detail- Name, address and Fax number</source>
+        <target><![CDATA[Checked Funeral Directors detail- Name, address and Fax number]]></target>
+      </trans-unit>
+      <trans-unit id="499">
+        <source>Checked Grave and Section including owner details</source>
+        <target><![CDATA[Checked Grave and Section including owner details]]></target>
+      </trans-unit>
+      <trans-unit id="500">
+        <source>Living grave owner</source>
+        <target><![CDATA[Living grave owner]]></target>
+      </trans-unit>
+      <trans-unit id="501">
+        <source>Deceased grave owner: all their heires and or descendants</source>
+        <target><![CDATA[Deceased grave owner: all their heires and or descendants]]></target>
+      </trans-unit>
+      <trans-unit id="502">
+        <source>Cecked Chapel booking(if requested)</source>
+        <target><![CDATA[Checked Chapel booking(if requested)]]></target>
+      </trans-unit>
+      <trans-unit id="503">
+        <source>Advised FD to check Chapel Equipment at least one day before</source>
+        <target><![CDATA[Advised FD to check Chapel Equipment at least one day before]]></target>
+      </trans-unit>
+      <trans-unit id="504">
+        <source>Advised FD of recommended Coffin Sizes</source>
+        <target><![CDATA[Advised FD of recommended Coffin Sizes]]></target>
+      </trans-unit>
+      <trans-unit id="505">
+        <source>Advised FD of coffin height surcharges</source>
+        <target><![CDATA[Advised FD of coffin height surcharges]]></target>
+      </trans-unit>
+      <trans-unit id="506">
+        <source>Recieved</source>
+        <target><![CDATA[Recieved]]></target>
+      </trans-unit>
+      <trans-unit id="507">
+        <source>Checked spelling of deceased full name</source>
+        <target><![CDATA[Checked spelling of deceased full name]]></target>
+      </trans-unit>
+      <trans-unit id="508">
+        <source>Checked for infectious diseases. If "Yes" noted same on booking sheets</source>
+        <target><![CDATA[Checked for infectious diseases. If "Yes" noted same on booking sheets]]></target>
+      </trans-unit>
+      <trans-unit id="509">
+        <source>Request probe for any re-opens</source>
+        <target><![CDATA[Request probe for any re-opens]]></target>
+      </trans-unit>
+      <trans-unit id="510">
+        <source>Request for triple depth grave on re-opens</source>
+        <target><![CDATA[Request Probe on re-opens]]></target>
+      </trans-unit>
+      <trans-unit id="511">
+        <source>Checked Monumental information</source>
+        <target><![CDATA[Checked Monumental information]]></target>
+      </trans-unit>
+      <trans-unit id="512">
+        <source>Contacted Stonemason if needed (e.g. slab removal)</source>
+        <target><![CDATA[Contacted Stonemason if needed (e.g. slab removal)]]></target>
+      </trans-unit>
+      <trans-unit id="513">
+        <source>Checked accessories</source>
+        <target><![CDATA[Checked accessories]]></target>
+      </trans-unit>
+      <trans-unit id="514">
+        <source>BalloonsN/A</source>
+        <target><![CDATA[Balloons]]></target>
+      </trans-unit>
+      <trans-unit id="515">
+        <source>Canopy</source>
+        <target><![CDATA[Canopy]]></target>
+      </trans-unit>
+      <trans-unit id="516">
+        <source>Ceremonial Sand Bucket</source>
+        <target><![CDATA[Ceremonial Sand Bucket]]></target>
+      </trans-unit>
+      <trans-unit id="517">
+        <source>Lowering Device</source>
+        <target><![CDATA[Lowering Device]]></target>
+      </trans-unit>
+      <trans-unit id="518">
+        <source>Other</source>
+        <target><![CDATA[Other]]></target>
+      </trans-unit>
+      <trans-unit id="519">
+        <source>Checked returned signed confirmation form</source>
+        <target><![CDATA[Checked returned signed confirmation form]]></target>
+      </trans-unit>
+      <trans-unit id="520">
+        <source>Check coffin sizes are acceptable and surcharge applied</source>
+        <target><![CDATA[Check Coffin sizes are acceptable]]></target>
+      </trans-unit>
+      <trans-unit id="521">
+        <source>Compare Burial check to burial booking (coffin size/spear lowering)</source>
+        <target><![CDATA[Compare Burial check to burial booking (coffin size/spear lowering)]]></target>
+      </trans-unit>
+      <trans-unit id="522">
+        <source>For in-between burials, check surcharge has been paid</source>
+        <target><![CDATA[For in-between burials, check surcharge has been applied]]></target>
+      </trans-unit>
+      <trans-unit id="523">
+        <source>Double check that yellow copy shows up to date information ie. coffin sizes, burial times etc...</source>
+        <target><![CDATA[Double check that yellow copy shows up to date information ie. coffin sizes, burial times etc...]]></target>
+      </trans-unit>
+      <trans-unit id="524">
+        <source>List Of Interments</source>
+        <target><![CDATA[Interments]]></target>
+      </trans-unit>
+      <trans-unit id="525">
+        <source>Save &amp; Continue</source>
+        <target><![CDATA[Save & Continue]]></target>
+      </trans-unit>
+      <trans-unit id="526">
+        <source>Final Booking Checklist</source>
+        <target><![CDATA[Final Booking Checklist]]></target>
+      </trans-unit>
+      <trans-unit id="527">
+        <source>Has all the necessary documenttion and permission been recieved from either:</source>
+        <target><![CDATA[Has all the necessary documentation and permission been received from either:]]></target>
+      </trans-unit>
+      <trans-unit id="528">
+        <source>Medical Cause of Death Certificate</source>
+        <target><![CDATA[Medical Cause of Death Certificate]]></target>
+      </trans-unit>
+      <trans-unit id="529">
+        <source>Deceased Details</source>
+        <target><![CDATA[Deceased Details]]></target>
+      </trans-unit>
+      <trans-unit id="530">
+        <source>Informant Details</source>
+        <target><![CDATA[Informant/Applicant Details]]></target>
+      </trans-unit>
+      <trans-unit id="531">
+        <source>Finalise</source>
+        <target><![CDATA[Finalise]]></target>
+      </trans-unit>
+      <trans-unit id="532">
+        <source>List Of Service Bookings</source>
+        <target><![CDATA[Service Bookings]]></target>
+      </trans-unit>
+      <trans-unit id="533">
+        <source>Add New Disease</source>
+        <target><![CDATA[Add Disease]]></target>
+      </trans-unit>
+      <trans-unit id="534">
+        <source>Edit Disease</source>
+        <target><![CDATA[Edit Disease]]></target>
+      </trans-unit>
+      <trans-unit id="535">
+        <source>Add New Coffin</source>
+        <target><![CDATA[Add Coffin]]></target>
+      </trans-unit>
+      <trans-unit id="536">
+        <source>Edit Coffin</source>
+        <target><![CDATA[Edit Coffin]]></target>
+      </trans-unit>
+      <trans-unit id="537">
+        <source>Add New Cemetery</source>
+        <target><![CDATA[Add Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="538">
+        <source>Edit Cemetery</source>
+        <target><![CDATA[Edit Cemetery]]></target>
+      </trans-unit>
+      <trans-unit id="539">
+        <source>Back to previous page</source>
+        <target><![CDATA[Back to previous page]]></target>
+      </trans-unit>
+      <trans-unit id="540">
+        <source>Go to Homepage</source>
+        <target><![CDATA[Go to Homepage]]></target>
+      </trans-unit>
+      <trans-unit id="541">
+        <source>Mr</source>
+        <target><![CDATA[Mr]]></target>
+      </trans-unit>
+      <trans-unit id="542">
+        <source>Actions</source>
+        <target><![CDATA[Actions]]></target>
+      </trans-unit>
+      <trans-unit id="543">
+        <source>Edit Purchased Grave</source>
+        <target><![CDATA[Edit Purchased Grave]]></target>
+      </trans-unit>
+      <trans-unit id="544">
+        <source>Suburb/Town</source>
+        <target><![CDATA[Suburb/Town]]></target>
+      </trans-unit>
+      <trans-unit id="545">
+        <source>Grantee Detail</source>
+        <target><![CDATA[Grantee Detail]]></target>
+      </trans-unit>
+      <trans-unit id="546">
+        <source>Please enter company name</source>
+        <target><![CDATA[Please enter company name]]></target>
+      </trans-unit>
+      <trans-unit id="547">
+        <source>Edit Admin</source>
+        <target><![CDATA[Edit Admin]]></target>
+      </trans-unit>
+      <trans-unit id="548">
+        <source>Add New Admin</source>
+        <target><![CDATA[Add Admin]]></target>
+      </trans-unit>
+      <trans-unit id="549">
+        <source>Admin list</source>
+        <target><![CDATA[Admins]]></target>
+      </trans-unit>
+      <trans-unit id="550">
+        <source>LastName</source>
+        <target><![CDATA[LastName]]></target>
+      </trans-unit>
+      <trans-unit id="551">
+        <source>Please enter last name</source>
+        <target><![CDATA[Please enter last name]]></target>
+      </trans-unit>
+      <trans-unit id="552">
+        <source>Last Name</source>
+        <target><![CDATA[Last Name]]></target>
+      </trans-unit>
+      <trans-unit id="553">
+        <source>Edit Interment</source>
+        <target><![CDATA[Edit Interment]]></target>
+      </trans-unit>
+      <trans-unit id="554">
+        <source>Other Details</source>
+        <target><![CDATA[Other Details]]></target>
+      </trans-unit>
+      <trans-unit id="555">
+        <source>Burials</source>
+        <target><![CDATA[Burials]]></target>
+      </trans-unit>
+      <trans-unit id="556">
+        <source>Funeral Director</source>
+        <target><![CDATA[Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="557">
+        <source>Grave No</source>
+        <target><![CDATA[Grave No]]></target>
+      </trans-unit>
+      <trans-unit id="558">
+        <source>Service Date</source>
+        <target><![CDATA[Service Date]]></target>
+      </trans-unit>
+      <trans-unit id="559">
+        <source>N/A</source>
+        <target><![CDATA[N/A]]></target>
+      </trans-unit>
+      <trans-unit id="560">
+        <source>Ashes</source>
+        <target><![CDATA[Ashes]]></target>
+      </trans-unit>
+      <trans-unit id="561">
+        <source>Exhumation</source>
+        <target><![CDATA[Exhumation]]></target>
+      </trans-unit>
+      <trans-unit id="562">
+        <source>Today</source>
+        <target><![CDATA[Today]]></target>
+      </trans-unit>
+      <trans-unit id="563">
+        <source>Welcome to</source>
+        <target><![CDATA[Welcome to]]></target>
+      </trans-unit>
+      <trans-unit id="564">
+        <source>Grantee Identity Number</source>
+        <target><![CDATA[Grantee Identity Number]]></target>
+      </trans-unit>
+      <trans-unit id="565">
+        <source>Fax Area Code</source>
+        <target><![CDATA[Fax Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="566">
+        <source>Telephone Area Code</source>
+        <target><![CDATA[Telephone Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="567">
+        <source>Grantee Address</source>
+        <target><![CDATA[Grantee Address]]></target>
+      </trans-unit>
+      <trans-unit id="568">
+        <source>Grantee Email</source>
+        <target><![CDATA[Grantee Email]]></target>
+      </trans-unit>
+      <trans-unit id="569">
+        <source>Select User Role</source>
+        <target><![CDATA[Select User Role]]></target>
+      </trans-unit>
+      <trans-unit id="570">
+        <source>Surname required</source>
+        <target><![CDATA[Surname required]]></target>
+      </trans-unit>
+      <trans-unit id="571">
+        <source>Select Infectious Disease</source>
+        <target><![CDATA[Select Infectious Disease]]></target>
+      </trans-unit>
+      <trans-unit id="572">
+        <source>Infectious Disease</source>
+        <target><![CDATA[Infectious Disease]]></target>
+      </trans-unit>
+      <trans-unit id="573">
+        <source>Are you sure?</source>
+        <target><![CDATA[Are you sure?]]></target>
+      </trans-unit>
+      <trans-unit id="574">
+        <source>Edit</source>
+        <target><![CDATA[Edit]]></target>
+      </trans-unit>
+      <trans-unit id="575">
+        <source>Informant</source>
+        <target><![CDATA[Informant]]></target>
+      </trans-unit>
+      <trans-unit id="576">
+        <source>Show</source>
+        <target><![CDATA[Show]]></target>
+      </trans-unit>
+      <trans-unit id="577">
+        <source>Profile</source>
+        <target><![CDATA[Profile]]></target>
+      </trans-unit>
+      <trans-unit id="578">
+        <source>Reports</source>
+        <target><![CDATA[Reports]]></target>
+      </trans-unit>
+      <trans-unit id="579">
+        <source>Date Of Interment</source>
+        <target><![CDATA[Date Of Interment]]></target>
+      </trans-unit>
+      <trans-unit id="580">
+        <source>Date Of Birth</source>
+        <target><![CDATA[Date Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="581">
+        <source>Date Of Death</source>
+        <target><![CDATA[Date Of Death]]></target>
+      </trans-unit>
+      <trans-unit id="582">
+        <source>Grantee unique ID does not exists</source>
+        <target><![CDATA[Grantee unique ID does not exists]]></target>
+      </trans-unit>
+      <trans-unit id="583">
+        <source>You can't surrender grave your self</source>
+        <target><![CDATA[You can't transfer grave your self]]></target>
+      </trans-unit>
+      <trans-unit id="584">
+        <source>Grantee Unique ID</source>
+        <target><![CDATA[Grantee Unique ID]]></target>
+      </trans-unit>
+      <trans-unit id="585">
+        <source>Please select grantee unique ID</source>
+        <target><![CDATA[Please select grantee unique ID]]></target>
+      </trans-unit>
+      <trans-unit id="586">
+        <source>Grave History</source>
+        <target><![CDATA[Grave History]]></target>
+      </trans-unit>
+      <trans-unit id="587">
+        <source>Phone Number</source>
+        <target><![CDATA[Phone Number]]></target>
+      </trans-unit>
+      <trans-unit id="588">
+        <source>Code</source>
+        <target><![CDATA[Code]]></target>
+      </trans-unit>
+      <trans-unit id="589">
+        <source>Cemetery Report</source>
+        <target><![CDATA[Cemetery Report]]></target>
+      </trans-unit>
+      <trans-unit id="590">
+        <source>No of Interments in </source>
+        <target><![CDATA[No of Interments in]]></target>
+      </trans-unit>
+      <trans-unit id="591">
+        <source>Report</source>
+        <target><![CDATA[Report]]></target>
+      </trans-unit>
+      <trans-unit id="592">
+        <source>Number of Interments</source>
+        <target><![CDATA[Number of Interments]]></target>
+      </trans-unit>
+      <trans-unit id="593">
+        <source>Number of Occupied Graves</source>
+        <target><![CDATA[Number of Occupied Graves]]></target>
+      </trans-unit>
+      <trans-unit id="594">
+        <source>Number of Empty Graves</source>
+        <target><![CDATA[Number of Empty Graves]]></target>
+      </trans-unit>
+      <trans-unit id="595">
+        <source>Contact Area Code</source>
+        <target><![CDATA[Area Code]]></target>
+      </trans-unit>
+      <trans-unit id="596">
+        <source>Cementery</source>
+        <target><![CDATA[Cementery]]></target>
+      </trans-unit>
+      <trans-unit id="597">
+        <source>Contact Name</source>
+        <target><![CDATA[Contact Name]]></target>
+      </trans-unit>
+      <trans-unit id="598">
+        <source>Unique ID</source>
+        <target><![CDATA[Unique ID]]></target>
+      </trans-unit>
+      <trans-unit id="599">
+        <source>UNKNOWN</source>
+        <target><![CDATA[UNKNOWN]]></target>
+      </trans-unit>
+      <trans-unit id="600">
+        <source>Organization</source>
+        <target><![CDATA[Organization]]></target>
+      </trans-unit>
+      <trans-unit id="601">
+        <source>The file must be of BMP, GIF, JPG, PNG format</source>
+        <target><![CDATA[The file must be of BMP, GIF, JPG, PNG format]]></target>
+      </trans-unit>
+      <trans-unit id="602">
+        <source>Document has been successfully uploaded</source>
+        <target><![CDATA[Document has been successfully uploaded]]></target>
+      </trans-unit>
+      <trans-unit id="603">
+        <source>Document has been successfully download</source>
+        <target><![CDATA[Document has been successfully download]]></target>
+      </trans-unit>
+      <trans-unit id="604">
+        <source>This page is in a restricted area</source>
+        <target><![CDATA[This page is in a restricted area]]></target>
+      </trans-unit>
+      <trans-unit id="605">
+        <source>File Name</source>
+        <target><![CDATA[File Name]]></target>
+      </trans-unit>
+      <trans-unit id="606">
+        <source>Select File</source>
+        <target><![CDATA[Select File]]></target>
+      </trans-unit>
+      <trans-unit id="607">
+        <source>Please enter filename</source>
+        <target><![CDATA[Please enter filename]]></target>
+      </trans-unit>
+      <trans-unit id="608">
+        <source>Please select file</source>
+        <target><![CDATA[Please select file]]></target>
+      </trans-unit>
+      <trans-unit id="609">
+        <source>The file must be of PDF, DOC, EXCEL, TXT, IMAGE format</source>
+        <target><![CDATA[The file must be of PDF, DOC, EXCEL, TXT, IMAGE format]]></target>
+      </trans-unit>
+      <trans-unit id="610">
+        <source>Time From</source>
+        <target><![CDATA[Time From]]></target>
+      </trans-unit>
+      <trans-unit id="611">
+        <source>Time To</source>
+        <target><![CDATA[Time To]]></target>
+      </trans-unit>
+      <trans-unit id="612">
+        <source>Size</source>
+        <target><![CDATA[Size]]></target>
+      </trans-unit>
+      <trans-unit id="613">
+        <source>UnitType</source>
+        <target><![CDATA[UnitType]]></target>
+      </trans-unit>
+      <trans-unit id="614">
+        <source>Grave Position</source>
+        <target><![CDATA[Grave Position]]></target>
+      </trans-unit>
+      <trans-unit id="615">
+        <source>Plot Unit Type</source>
+        <target><![CDATA[Block/Plot Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="616">
+        <source>Service Date 1</source>
+        <target><![CDATA[Service Date 1]]></target>
+      </trans-unit>
+      <trans-unit id="617">
+        <source>Service Date 2</source>
+        <target><![CDATA[Service Date 2]]></target>
+      </trans-unit>
+      <trans-unit id="618">
+        <source>Service Date 3</source>
+        <target><![CDATA[Service Date 3]]></target>
+      </trans-unit>
+      <trans-unit id="619">
+        <source>Ceremonial Sand</source>
+        <target><![CDATA[Ceremonial Sand]]></target>
+      </trans-unit>
+      <trans-unit id="620">
+        <source>Balloons</source>
+        <target><![CDATA[Balloons]]></target>
+      </trans-unit>
+      <trans-unit id="621">
+        <source>Chapel Multimedia</source>
+        <target><![CDATA[Chapel Multimedia]]></target>
+      </trans-unit>
+      <trans-unit id="622">
+        <source>Upload Document</source>
+        <target><![CDATA[Upload Document]]></target>
+      </trans-unit>
+      <trans-unit id="623">
+        <source>Upload</source>
+        <target><![CDATA[Upload]]></target>
+      </trans-unit>
+      <trans-unit id="624">
+        <source>List Of Documents</source>
+        <target><![CDATA[Documents]]></target>
+      </trans-unit>
+      <trans-unit id="625">
+        <source>List of Documents</source>
+        <target><![CDATA[Documents]]></target>
+      </trans-unit>
+      <trans-unit id="626">
+        <source>Grave/Plot</source>
+        <target><![CDATA[Grave/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="627">
+        <source>Document Name</source>
+        <target><![CDATA[Document Name]]></target>
+      </trans-unit>
+      <trans-unit id="628">
+        <source>Download</source>
+        <target><![CDATA[Download]]></target>
+      </trans-unit>
+      <trans-unit id="629">
+        <source>Download Document</source>
+        <target><![CDATA[Download Document]]></target>
+      </trans-unit>
+      <trans-unit id="630">
+        <source>Home</source>
+        <target><![CDATA[Home]]></target>
+      </trans-unit>
+      <trans-unit id="631">
+        <source>Workflow</source>
+        <target><![CDATA[Workflow]]></target>
+      </trans-unit>
+      <trans-unit id="632">
+        <source>Tasks/Notes</source>
+        <target><![CDATA[Tasks/Notes]]></target>
+      </trans-unit>
+      <trans-unit id="633">
+        <source>Annual Care</source>
+        <target><![CDATA[Annual Care]]></target>
+      </trans-unit>
+      <trans-unit id="634">
+        <source>Work Order</source>
+        <target><![CDATA[Work Order]]></target>
+      </trans-unit>
+      <trans-unit id="635">
+        <source>Delegation</source>
+        <target><![CDATA[Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="636">
+        <source>Documents</source>
+        <target><![CDATA[Documents]]></target>
+      </trans-unit>
+      <trans-unit id="637">
+        <source>Tentative</source>
+        <target><![CDATA[Tentative]]></target>
+      </trans-unit>
+      <trans-unit id="638">
+        <source>Tentative Booking</source>
+        <target><![CDATA[Tentative Booking]]></target>
+      </trans-unit>
+      <trans-unit id="639">
+        <source>Interment Year</source>
+        <target><![CDATA[Interment Year]]></target>
+      </trans-unit>
+      <trans-unit id="640">
+        <source>Generate PDF</source>
+        <target><![CDATA[Generate PDF]]></target>
+      </trans-unit>
+      <trans-unit id="641">
+        <source>Cem Cemetery Id</source>
+        <target><![CDATA[Cem Cemetery Id]]></target>
+      </trans-unit>
+      <trans-unit id="642">
+        <source>FirstName</source>
+        <target><![CDATA[FirstName]]></target>
+      </trans-unit>
+      <trans-unit id="643">
+        <source>Renewal Date</source>
+        <target><![CDATA[Renewal Date]]></target>
+      </trans-unit>
+      <trans-unit id="644">
+        <source>Annual Care Search</source>
+        <target><![CDATA[Annual Care Search]]></target>
+      </trans-unit>
+      <trans-unit id="645">
+        <source>Date of Paid</source>
+        <target><![CDATA[Date of Paid]]></target>
+      </trans-unit>
+      <trans-unit id="646">
+        <source>Amount Paid</source>
+        <target><![CDATA[Amount Paid]]></target>
+      </trans-unit>
+      <trans-unit id="647">
+        <source>Renewal Term</source>
+        <target><![CDATA[Renewal Term]]></target>
+      </trans-unit>
+      <trans-unit id="648">
+        <source>Annual Care Results</source>
+        <target><![CDATA[Annual Care Results]]></target>
+      </trans-unit>
+      <trans-unit id="649">
+        <source>Select Row Term</source>
+        <target><![CDATA[Select Row Term]]></target>
+      </trans-unit>
+      <trans-unit id="650">
+        <source>Date Paid</source>
+        <target><![CDATA[Date Paid]]></target>
+      </trans-unit>
+      <trans-unit id="651">
+        <source>Receipt</source>
+        <target><![CDATA[Receipt]]></target>
+      </trans-unit>
+      <trans-unit id="652">
+        <source>Interred Name</source>
+        <target><![CDATA[Interred Name]]></target>
+      </trans-unit>
+      <trans-unit id="653">
+        <source>Interred Surname</source>
+        <target><![CDATA[Interred Surname]]></target>
+      </trans-unit>
+      <trans-unit id="654">
+        <source>Title</source>
+        <target><![CDATA[Title]]></target>
+      </trans-unit>
+      <trans-unit id="655">
+        <source>Organization Name</source>
+        <target><![CDATA[Organization Name]]></target>
+      </trans-unit>
+      <trans-unit id="656">
+        <source>Subrub/Town</source>
+        <target><![CDATA[Subrub/Town]]></target>
+      </trans-unit>
+      <trans-unit id="657">
+        <source>Operational Notes</source>
+        <target><![CDATA[Operational Notes]]></target>
+      </trans-unit>
+      <trans-unit id="658">
+        <source>Please enter interred name</source>
+        <target><![CDATA[Please enter interred name]]></target>
+      </trans-unit>
+      <trans-unit id="659">
+        <source>Please enter interred surname</source>
+        <target><![CDATA[Please enter interred surname]]></target>
+      </trans-unit>
+      <trans-unit id="660">
+        <source>Please select renewal term</source>
+        <target><![CDATA[Please select renewal term]]></target>
+      </trans-unit>
+      <trans-unit id="661">
+        <source>Edit Grave Maintenance</source>
+        <target><![CDATA[Edit Grave Maintenance]]></target>
+      </trans-unit>
+      <trans-unit id="662">
+        <source>Add New Grave Maintenance</source>
+        <target><![CDATA[Add Grave Maintenance]]></target>
+      </trans-unit>
+      <trans-unit id="663">
+        <source>Caregiver</source>
+        <target><![CDATA[Caregiver]]></target>
+      </trans-unit>
+      <trans-unit id="664">
+        <source>Grave Maintenance List</source>
+        <target><![CDATA[Grave Maintenance]]></target>
+      </trans-unit>
+      <trans-unit id="665">
+        <source>Interments Details as per Report</source>
+        <target><![CDATA[Interments]]></target>
+      </trans-unit>
+      <trans-unit id="666">
+        <source>See Details</source>
+        <target><![CDATA[See Details]]></target>
+      </trans-unit>
+      <trans-unit id="667">
+        <source>Document has been successfully updated</source>
+        <target><![CDATA[Document has been successfully updated]]></target>
+      </trans-unit>
+      <trans-unit id="668">
+        <source>Document has been send successfully</source>
+        <target><![CDATA[Document has been send successfully]]></target>
+      </trans-unit>
+      <trans-unit id="669">
+        <source>Document sending failed!</source>
+        <target><![CDATA[Document sending failed!]]></target>
+      </trans-unit>
+      <trans-unit id="670">
+        <source>Subject</source>
+        <target><![CDATA[Subject]]></target>
+      </trans-unit>
+      <trans-unit id="671">
+        <source>Body</source>
+        <target><![CDATA[Body]]></target>
+      </trans-unit>
+      <trans-unit id="672">
+        <source>Please enter email id</source>
+        <target><![CDATA[Please enter email id]]></target>
+      </trans-unit>
+      <trans-unit id="673">
+        <source>Please enter valid email id</source>
+        <target><![CDATA[Please enter valid email id]]></target>
+      </trans-unit>
+      <trans-unit id="674">
+        <source>Please enter email subject</source>
+        <target><![CDATA[Please enter email subject]]></target>
+      </trans-unit>
+      <trans-unit id="675">
+        <source>Please enter email body</source>
+        <target><![CDATA[Please enter email body]]></target>
+      </trans-unit>
+      <trans-unit id="676">
+        <source>Please enter document name</source>
+        <target><![CDATA[Please enter document name]]></target>
+      </trans-unit>
+      <trans-unit id="677">
+        <source>Please select document</source>
+        <target><![CDATA[Please select document]]></target>
+      </trans-unit>
+      <trans-unit id="678">
+        <source>Send</source>
+        <target><![CDATA[Send]]></target>
+      </trans-unit>
+      <trans-unit id="679">
+        <source>Cemetery Documents</source>
+        <target><![CDATA[Cemetery Documents]]></target>
+      </trans-unit>
+      <trans-unit id="680">
+        <source>Send Cemetery Document</source>
+        <target><![CDATA[Send Cemetery Document]]></target>
+      </trans-unit>
+      <trans-unit id="681">
+        <source>Send Document</source>
+        <target><![CDATA[Send Document]]></target>
+      </trans-unit>
+      <trans-unit id="682">
+        <source>Task Title</source>
+        <target><![CDATA[Task Title]]></target>
+      </trans-unit>
+      <trans-unit id="683">
+        <source>Entry Date</source>
+        <target><![CDATA[Entry Date]]></target>
+      </trans-unit>
+      <trans-unit id="684">
+        <source>Due Date</source>
+        <target><![CDATA[Due Date]]></target>
+      </trans-unit>
+      <trans-unit id="685">
+        <source>Task Description</source>
+        <target><![CDATA[Task Description]]></target>
+      </trans-unit>
+      <trans-unit id="686">
+        <source>Please enter task title</source>
+        <target><![CDATA[Please enter task title]]></target>
+      </trans-unit>
+      <trans-unit id="687">
+        <source>Please enter task description</source>
+        <target><![CDATA[Please enter task description]]></target>
+      </trans-unit>
+      <trans-unit id="688">
+        <source>Edit Task Notes</source>
+        <target><![CDATA[Edit Task/Note]]></target>
+      </trans-unit>
+      <trans-unit id="689">
+        <source>Add New Task Notes</source>
+        <target><![CDATA[Add Task/Note]]></target>
+      </trans-unit>
+      <trans-unit id="690">
+        <source>Task Notes List</source>
+        <target><![CDATA[Tasks/Notes]]></target>
+      </trans-unit>
+      <trans-unit id="691">
+        <source>for</source>
+        <target><![CDATA[for]]></target>
+      </trans-unit>
+      <trans-unit id="692">
+        <source>List of documents</source>
+        <target><![CDATA[Documents]]></target>
+      </trans-unit>
+      <trans-unit id="693">
+        <source>Company</source>
+        <target><![CDATA[Company]]></target>
+      </trans-unit>
+      <trans-unit id="694">
+        <source>Expiry Date</source>
+        <target><![CDATA[Expiry Date]]></target>
+      </trans-unit>
+      <trans-unit id="695">
+        <source>List of Stone Mason</source>
+        <target><![CDATA[Stone Masons]]></target>
+      </trans-unit>
+      <trans-unit id="696">
+        <source>Cemetery Manager</source>
+        <target><![CDATA[Cemetery Manager]]></target>
+      </trans-unit>
+      <trans-unit id="697">
+        <source>Staff</source>
+        <target><![CDATA[Staff]]></target>
+      </trans-unit>
+      <trans-unit id="698">
+        <source>Admin Staff</source>
+        <target><![CDATA[Admin Staff]]></target>
+      </trans-unit>
+      <trans-unit id="699">
+        <source>Organisation required</source>
+        <target><![CDATA[Organisation required]]></target>
+      </trans-unit>
+      <trans-unit id="700">
+        <source>Add Stone Mason</source>
+        <target><![CDATA[Add Stone Mason]]></target>
+      </trans-unit>
+      <trans-unit id="701">
+        <source>Add Funeral Director</source>
+        <target><![CDATA[Add Funeral Director]]></target>
+      </trans-unit>
+      <trans-unit id="702">
+        <source>Created At</source>
+        <target><![CDATA[Created At]]></target>
+      </trans-unit>
+      <trans-unit id="703">
+        <source>Edit Interment Details</source>
+        <target><![CDATA[Edit Interment Details]]></target>
+      </trans-unit>
+      <trans-unit id="704">
+        <source>Interment Details</source>
+        <target><![CDATA[Interment Details]]></target>
+      </trans-unit>
+      <trans-unit id="705">
+        <source>Booking Details</source>
+        <target><![CDATA[Booking Details]]></target>
+      </trans-unit>
+      <trans-unit id="706">
+        <source>Confirmed</source>
+        <target><![CDATA[Confirmed]]></target>
+      </trans-unit>
+      <trans-unit id="707">
+        <source>Edit Department Delegation</source>
+        <target><![CDATA[Edit Department Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="708">
+        <source>Add New Department Delegation</source>
+        <target><![CDATA[Add Department Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="709">
+        <source>Department Delegation List</source>
+        <target><![CDATA[Department Delegations]]></target>
+      </trans-unit>
+      <trans-unit id="710">
+        <source>Map Path</source>
+        <target><![CDATA[Map Path]]></target>
+      </trans-unit>
+      <trans-unit id="711">
+        <source>Select Department Delegation</source>
+        <target><![CDATA[Select Department Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="712">
+        <source>Select Completed By</source>
+        <target><![CDATA[Select Completed By]]></target>
+      </trans-unit>
+      <trans-unit id="713">
+        <source>Work Date</source>
+        <target><![CDATA[Work Date]]></target>
+      </trans-unit>
+      <trans-unit id="714">
+        <source>Deparment Delegation</source>
+        <target><![CDATA[Deparment Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="715">
+        <source>Work/Issue Description</source>
+        <target><![CDATA[Work/Issue Description]]></target>
+      </trans-unit>
+      <trans-unit id="716">
+        <source>Completed By</source>
+        <target><![CDATA[Completed By]]></target>
+      </trans-unit>
+      <trans-unit id="717">
+        <source>Completion Date</source>
+        <target><![CDATA[Completion Date]]></target>
+      </trans-unit>
+      <trans-unit id="718">
+        <source>Action Taken/Notes</source>
+        <target><![CDATA[Action Taken/Notes]]></target>
+      </trans-unit>
+      <trans-unit id="719">
+        <source>Feed Charges</source>
+        <target><![CDATA[Feed Charges]]></target>
+      </trans-unit>
+      <trans-unit id="720">
+        <source>Department Delegation</source>
+        <target><![CDATA[Department Delegation]]></target>
+      </trans-unit>
+      <trans-unit id="721">
+        <source>Add New Work Order</source>
+        <target><![CDATA[Add Work Order]]></target>
+      </trans-unit>
+      <trans-unit id="722">
+        <source>Edit Work Order</source>
+        <target><![CDATA[Edit Work Order]]></target>
+      </trans-unit>
+      <trans-unit id="723">
+        <source>Work Order List</source>
+        <target><![CDATA[Work Orders]]></target>
+      </trans-unit>
+      <trans-unit id="724">
+        <source>Informant Mobile</source>
+        <target><![CDATA[Mobile]]></target>
+      </trans-unit>
+      <trans-unit id="725">
+        <source>Assign Grantee</source>
+        <target><![CDATA[Assign Existing Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="726">
+        <source>Assign New Grantee</source>
+        <target><![CDATA[Assign New Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="727">
+        <source>Compose</source>
+        <target><![CDATA[Compose]]></target>
+      </trans-unit>
+      <trans-unit id="728">
+        <source>Inbox</source>
+        <target><![CDATA[Inbox]]></target>
+      </trans-unit>
+      <trans-unit id="729">
+        <source>Sent</source>
+        <target><![CDATA[Sent]]></target>
+      </trans-unit>
+      <trans-unit id="730">
+        <source>Trash</source>
+        <target><![CDATA[Trash]]></target>
+      </trans-unit>
+      <trans-unit id="731">
+        <source>Add Multiple Graves</source>
+        <target><![CDATA[Add Multiple Graves]]></target>
+      </trans-unit>
+      <trans-unit id="732">
+        <source>Complete</source>
+        <target><![CDATA[Complete]]></target>
+      </trans-unit>
+      <trans-unit id="733">
+        <source>Deceased Date Of Birth</source>
+        <target><![CDATA[Deceased Date Of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="734">
+        <source>Please enter area code</source>
+        <target><![CDATA[Please enter area code]]></target>
+      </trans-unit>
+      <trans-unit id="735">
+        <source>Grantee Grave Details</source>
+        <target><![CDATA[Grantee Grave Details]]></target>
+      </trans-unit>
+      <trans-unit id="736">
+        <source>Purchased</source>
+        <target><![CDATA[Purchased]]></target>
+      </trans-unit>
+      <trans-unit id="737">
+        <source>Not Purchased</source>
+        <target><![CDATA[Not Purchased]]></target>
+      </trans-unit>
+      <trans-unit id="738">
+        <source>Document has been sent successfully</source>
+        <target><![CDATA[Document has been sent successfully]]></target>
+      </trans-unit>
+      <trans-unit id="739">
+        <source>Mail has been sent successfully</source>
+        <target><![CDATA[Mail has been sent successfully]]></target>
+      </trans-unit>
+      <trans-unit id="740">
+        <source>Content</source>
+        <target><![CDATA[Content]]></target>
+      </trans-unit>
+      <trans-unit id="741">
+        <source>Please enter to email id</source>
+        <target><![CDATA[Please enter to email id]]></target>
+      </trans-unit>
+      <trans-unit id="742">
+        <source>Please enter subject</source>
+        <target><![CDATA[Please enter subject]]></target>
+      </trans-unit>
+      <trans-unit id="743">
+        <source>Please body content</source>
+        <target><![CDATA[Please body content]]></target>
+      </trans-unit>
+      <trans-unit id="744">
+        <source>Reply</source>
+        <target><![CDATA[Reply]]></target>
+      </trans-unit>
+      <trans-unit id="745">
+        <source>Forward</source>
+        <target><![CDATA[Forward]]></target>
+      </trans-unit>
+      <trans-unit id="746">
+        <source>Date</source>
+        <target><![CDATA[Date]]></target>
+      </trans-unit>
+      <trans-unit id="747">
+        <source>Compose Mail</source>
+        <target><![CDATA[Compose Mail]]></target>
+      </trans-unit>
+      <trans-unit id="748">
+        <source>Send Mail</source>
+        <target><![CDATA[Send Mail]]></target>
+      </trans-unit>
+      <trans-unit id="749">
+        <source>Cemetery Mail</source>
+        <target><![CDATA[Cemetery Mail]]></target>
+      </trans-unit>
+      <trans-unit id="750">
+        <source>Due date must be grater than entry date</source>
+        <target><![CDATA[Due date must be grater than entry date]]></target>
+      </trans-unit>
+      <trans-unit id="751">
+        <source>From Date</source>
+        <target><![CDATA[From Date]]></target>
+      </trans-unit>
+      <trans-unit id="752">
+        <source>To Date</source>
+        <target><![CDATA[To Date]]></target>
+      </trans-unit>
+      <trans-unit id="753">
+        <source>Annual Care Report</source>
+        <target><![CDATA[Annual Care Report]]></target>
+      </trans-unit>
+      <trans-unit id="754">
+        <source>Interred</source>
+        <target><![CDATA[Interred]]></target>
+      </trans-unit>
+      <trans-unit id="755">
+        <source>Operations Notes</source>
+        <target><![CDATA[Operations Notes]]></target>
+      </trans-unit>
+      <trans-unit id="756">
+        <source>Multiple Graves has been inserted successfully</source>
+        <target><![CDATA[Multiple Graves has been inserted successfully]]></target>
+      </trans-unit>
+      <trans-unit id="757">
+        <source>Select Status</source>
+        <target><![CDATA[Select Status]]></target>
+      </trans-unit>
+      <trans-unit id="758">
+        <source>Starting Range of Grave Number</source>
+        <target><![CDATA[Starting Range of Grave Number]]></target>
+      </trans-unit>
+      <trans-unit id="759">
+        <source>Ending Range of Grave Number</source>
+        <target><![CDATA[Ending Range of Grave Number]]></target>
+      </trans-unit>
+      <trans-unit id="760">
+        <source>Please enter grave number</source>
+        <target><![CDATA[Please enter grave number]]></target>
+      </trans-unit>
+      <trans-unit id="761">
+        <source>Please select grave status</source>
+        <target><![CDATA[Please select grave status]]></target>
+      </trans-unit>
+      <trans-unit id="762">
+        <source>Please enter starting range of grave number</source>
+        <target><![CDATA[Please enter starting range of grave number]]></target>
+      </trans-unit>
+      <trans-unit id="763">
+        <source>Please enter ending range of grave number</source>
+        <target><![CDATA[Please enter ending range of grave number]]></target>
+      </trans-unit>
+      <trans-unit id="764">
+        <source>Ending range of grave number must be greater than starting range of grave number</source>
+        <target><![CDATA[Ending range of grave number must be greater than starting range of grave number]]></target>
+      </trans-unit>
+      <trans-unit id="765">
+        <source>Grave Owners</source>
+        <target><![CDATA[Grave Owners]]></target>
+      </trans-unit>
+      <trans-unit id="766">
+        <source>Grave Purchase</source>
+        <target><![CDATA[Grave Purchase]]></target>
+      </trans-unit>
+      <trans-unit id="767">
+        <source>Add Multiple Grave</source>
+        <target><![CDATA[Add Multiple Grave]]></target>
+      </trans-unit>
+      <trans-unit id="768">
+        <source>Show Grantees</source>
+        <target><![CDATA[Show Grantees]]></target>
+      </trans-unit>
+      <trans-unit id="769">
+        <source>Select Finageuom</source>
+        <target><![CDATA[Select Option]]></target>
+      </trans-unit>
+      <trans-unit id="770">
+        <source>Period</source>
+        <target><![CDATA[Period]]></target>
+      </trans-unit>
+      <trans-unit id="771">
+        <source>Select Grantee</source>
+        <target><![CDATA[Select Grantee]]></target>
+      </trans-unit>
+      <trans-unit id="772">
+        <source>Checked Chapel booking(if requested)</source>
+        <target><![CDATA[Checked Chapel booking(if requested)]]></target>
+      </trans-unit>
+      <trans-unit id="773">
+        <source>Request triple depth reopen</source>
+        <target><![CDATA[Request triple depth burial]]></target>
+      </trans-unit>
+      <trans-unit id="774">
+        <source>Checked returned signed</source>
+        <target><![CDATA[Checked returned signed]]></target>
+      </trans-unit>
+      <trans-unit id="775">
+        <source>Coffin Type</source>
+        <target><![CDATA[Coffin Type]]></target>
+      </trans-unit>
+      <trans-unit id="776">
+        <source>Unit Type</source>
+        <target><![CDATA[Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="777">
+        <source>Notes</source>
+        <target><![CDATA[Notes]]></target>
+      </trans-unit>
+      <trans-unit id="778">
+        <source>deceased_gender</source>
+        <target><![CDATA[deceased_gender]]></target>
+      </trans-unit>
+      <trans-unit id="779">
+        <source>Block/Plot</source>
+        <target><![CDATA[Block/Plot]]></target>
+      </trans-unit>
+      <trans-unit id="780">
+        <source>Relationship</source>
+        <target><![CDATA[Relationship]]></target>
+      </trans-unit>
+      <trans-unit id="781">
+        <source>Block/Plot Unit Type</source>
+        <target><![CDATA[Block/Plot Unit Type]]></target>
+      </trans-unit>
+      <trans-unit id="782">
+        <source>Print as PDF</source>
+        <target><![CDATA[Print as PDF]]></target>
+      </trans-unit>
+      <trans-unit id="783">
+        <source>Edit Document</source>
+        <target><![CDATA[Edit Document]]></target>
+      </trans-unit>
+      <trans-unit id="784">
+        <source>Date of Death</source>
+        <target><![CDATA[Date of Death]]></target>
+      </trans-unit>
+      <trans-unit id="785">
+        <source>Place of Death</source>
+        <target><![CDATA[Place of Death]]></target>
+      </trans-unit>
+      <trans-unit id="786">
+        <source>Place of Birth</source>
+        <target><![CDATA[Place of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="787">
+        <source>Country of Death</source>
+        <target><![CDATA[Country of Death]]></target>
+      </trans-unit>
+      <trans-unit id="788">
+        <source>Country of Birth</source>
+        <target><![CDATA[Country of Birth]]></target>
+      </trans-unit>
+      <trans-unit id="789">
+        <source>Age</source>
+        <target><![CDATA[Age]]></target>
+      </trans-unit>
+      <trans-unit id="790">
+        <source>Usual Address</source>
+        <target><![CDATA[Usual Address]]></target>
+      </trans-unit>
+      <trans-unit id="791">
+        <source>Marital Status</source>
+        <target><![CDATA[Marital Status]]></target>
+      </trans-unit>
+      <trans-unit id="792">
+        <source>Partner Surname</source>
+        <target><![CDATA[Partner Surname]]></target>
+      </trans-unit>
+      <trans-unit id="793">
+        <source>Partner Name</source>
+        <target><![CDATA[Partner Name]]></target>
+      </trans-unit>
+      <trans-unit id="794">
+        <source>Father Surname</source>
+        <target><![CDATA[Father Surname]]></target>
+      </trans-unit>
+      <trans-unit id="795">
+        <source>Father Name</source>
+        <target><![CDATA[Father Name]]></target>
+      </trans-unit>
+      <trans-unit id="796">
+        <source>Mother Maiden Surname</source>
+        <target><![CDATA[Mother Maiden Surname]]></target>
+      </trans-unit>
+      <trans-unit id="797">
+        <source>Mother Name</source>
+        <target><![CDATA[Mother Name]]></target>
+      </trans-unit>
+      <trans-unit id="798">
+        <source>Informant/Applicant Details</source>
+        <target><![CDATA[Informant/Applicant Details]]></target>
+      </trans-unit>
+      <trans-unit id="799">
+        <source>Mobile</source>
+        <target><![CDATA[Mobile]]></target>
+      </trans-unit>
+      <trans-unit id="800">
+        <source>Contact Number</source>
+        <target><![CDATA[Contact Number]]></target>
+      </trans-unit>
+      <trans-unit id="801">
+        <source>Please enter section code</source>
+        <target><![CDATA[Please enter section code]]></target>
+      </trans-unit>
+      <trans-unit id="802">
+        <source>ar_grave_status</source>
+        <target><![CDATA[Add Grave Status]]></target>
+      </trans-unit>
+      <trans-unit id="803">
+        <source>first_name</source>
+        <target><![CDATA[First Name]]></target>
+      </trans-unit>      
+      <trans-unit id="804">
+        <source>informant_state</source>
+        <target><![CDATA[State]]></target>
+      </trans-unit>      
+      <trans-unit id="805">
+        <source>deceased_state</source>
+        <target><![CDATA[State]]></target>
+      </trans-unit>                  
+      
+    </body>
+  </file>
+</xliff>

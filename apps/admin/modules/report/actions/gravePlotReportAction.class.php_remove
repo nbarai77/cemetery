@@ -1,0 +1,200 @@
+<?php
+
+/**
+ * report actions.
+ *
+ * @package    cemetery
+ * @subpackage report
+ * @author     Prakash Panchal
+ * @version    SVN: $Id: gravePlotReportAction.class.php_remove,v 1.1.1.1 2012/03/24 12:17:43 nitin Exp $
+ */
+sfProjectConfiguration::getActive()->loadHelpers(array('I18N','Url','Form'));
+class gravePlotReportAction extends sfAction
+{
+	 /**
+     * preExecutes  action
+     *
+     * @access public
+     * @param sfRequest $request A request object
+     */
+    public function preExecute()
+    {
+        sfContext::getInstance()->getResponse()->addCacheControlHttpHeader('no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
+
+        // Declaration of messages.
+        $this->amSuccessMsg = array(
+                                    1 => __('Status changes successfully'),
+                                    2 => __('Record has been updated successfully'),
+                                    3 => __('Record has been deleted successfully'),
+                                    4 => __('Record has been inserted successfully'),
+                                );
+
+        $this->amErrorMsg = array(1 => __('Please select at least one'),);
+        $this->ssFormName = 'frm_list_granteesearch';
+        $omRequest        = sfContext::getInstance()->getRequest();
+
+		$amGranteeFormRequest = $this->getRequestParameter('grantee');
+		
+		$this->amPostRequest = $omRequest->getParameter('reports');
+		
+		
+        // Set default values
+        $this->amExtraParameters = array();
+        $this->amExtraParameters['snPaging']        = $this->snPaging       = $omRequest->getParameter('paging',sfConfig::get('app_default_paging_records'));
+        $this->amExtraParameters['snPage']          = $this->snPage         = $omRequest->getParameter('page', sfConfig::get('app_default_page', 1));
+        $this->amExtraParameters['ssSearchCountryId']   	= $this->ssSearchCountryId  	= trim($amGranteeFormRequest['country_id']);
+
+        $this->amExtraParameters['ssSearchCemCemeteryId']   	= $this->ssSearchCemCemeteryId  	= trim($omRequest->getParameter('reports_cem_cemetery_id'));		
+        $this->amExtraParameters['ssSearchArAreaId']   	= $this->ssSearchArAreaId  	= trim($omRequest->getParameter('reports_ar_area_id'));
+        $this->amExtraParameters['ssSearchArSectionId']   	= $this->ssSearchArSectionId  	= trim($omRequest->getParameter('reports_ar_section_id'));
+        $this->amExtraParameters['ssSearchArRowId']   	= $this->ssSearchArRowId  	= trim($omRequest->getParameter('reports_ar_row_id'));        
+        $this->amExtraParameters['ssSearchArPlotId']   	= $this->ssSearchArPlotId  	= trim($omRequest->getParameter('reports_ar_plot_id'));        
+        
+        $this->amExtraParameters['ssSortBy']        = $this->ssSortBy       = $omRequest->getParameter('sortby','id');
+        $this->amExtraParameters['ssSortMode']      = $this->ssSortMode     = $omRequest->getParameter('sortmode','desc');
+
+        $this->ssSortQuerystr = $this->ssQuerystr = 'page='.$this->snPage.'&paging='.$this->snPaging;
+
+        if($amGranteeFormRequest['country_id'] != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchCountryId='.$amGranteeFormRequest['country_id'];
+            $this->ssSortQuerystr.= '&searchCountryId='.$amGranteeFormRequest['country_id'];
+        }
+		if($this->ssSearchCemCemeteryId != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchCemCemeteryId='.$this->ssSearchCemCemeteryId;
+            $this->ssSortQuerystr.= '&searchCemCemeteryId='.$this->ssSearchCemCemeteryId;
+        }
+		if($this->ssSearchArAreaId != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchArAreaId='.$this->ssSearchArAreaId;
+            $this->ssSortQuerystr.= '&searchArAreaId='.$this->ssSearchArAreaId;
+        }
+        if($this->ssSearchArSectionId != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchArSectionId='.$this->ssSearchArSectionId;
+            $this->ssSortQuerystr.= '&searchArSectionId='.$this->ssSearchArSectionId;
+        }
+        if($this->ssSearchArRowId != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchArRowId='.$this->ssSearchArRowId;
+            $this->ssSortQuerystr.= '&searchArRowId='.$this->ssSearchArRowId;
+        }
+        if($this->ssSearchArPlotId != '' )        // Search parameters
+        {
+            $this->ssQuerystr    .= '&searchArPlotId='.$this->ssSearchArPlotId;
+            $this->ssSortQuerystr.= '&searchArPlotId='.$this->ssSearchArPlotId;
+        }		
+        		
+        if($this->getRequestParameter('sortby') != '' )        // Sorting parameters
+            $this->ssQuerystr .= '&sortby='.$this->getRequestParameter('sortby').'&sortmode='.$this->getRequestParameter('sortmode');
+
+        $this->amExtraParameters['ssQuerystr']     = $this->ssQuerystr;
+        $this->amExtraParameters['ssSortQuerystr'] = $this->ssSortQuerystr;
+    }
+	/**
+	 * Executes index action
+	 *	
+	 * @param sfRequest $request A request object
+	 */
+	public function execute($oRequest)
+	{
+		$this->snCementeryId = $oRequest->getParameter('reports_cem_cemetery_id', '');
+        $this->snAreaId = $oRequest->getParameter('reports_ar_area_id', '');
+		
+		$this->asCementery = $this->asAreaList = $this->amGravePlotReportResult = $this->amGravePlotReportAsPerDateResult = $this->amGraveSectionsReportList = array();
+		$this->ssFromDate = $this->ssToDate = $this->oGraveSectionsReportList = '';
+		$this->snPageTotalGraveSectionsReportPages = 0;
+		
+        $this->oGravePlotReportForm = new GravePlotReportForm();
+        $this->getConfigurationFields($this->oGravePlotReportForm);
+		
+		$amGraveFormRequest = $oRequest->getParameter($this->oGravePlotReportForm->getName());
+		$this->snCementeryId = (!$this->getUser()->isSuperAdmin()) ? $amGraveFormRequest['cem_cemetery_id'] : $this->snCementeryId;
+		
+		if($amGraveFormRequest['country_id'] != '')
+			$this->asCementery = Doctrine::getTable('CemCemetery')->getAllCemeteries($amGraveFormRequest['country_id']);
+		if($this->snCementeryId != '' && $amGraveFormRequest['country_id'] != '')
+			$this->asAreaList = Doctrine::getTable('ArArea')->getAreaListAsPerCemetery($amGraveFormRequest['country_id'], $this->snCementeryId);
+
+		if($oRequest->isMethod('post'))
+       	{
+			// FOR TOTAL GRAVE REPORT
+			$this->amGravePlotReportResult = Doctrine::getTable('ArGrave')->getGravePlotReport();
+
+			// FOR GRAVE REPORT AS PER BETWEEN FROM AND TO UPDATE DATE INTO GRAVE
+			$this->ssFromDate 	= (isset($amGraveFormRequest['from_date']) && $amGraveFormRequest['from_date'] != '') ? $amGraveFormRequest['from_date'] : '';			
+			$this->ssToDate		= (isset($amGraveFormRequest['to_date']) && $amGraveFormRequest['to_date'] != '') ? $amGraveFormRequest['to_date'] : '';
+			if($this->ssFromDate != '' && $this->ssToDate != '')
+			{
+				$ssFormatedFromDate = date('Y-m-d', strtotime($this->ssFromDate));
+				$ssFormatedToDate = date('Y-m-d', strtotime($this->ssToDate));
+				
+				$this->amGravePlotReportAsPerDateResult = Doctrine::getTable('ArGrave')->getGravePlotReport('', '', '', $ssFormatedFromDate, $ssFormatedToDate);
+			}
+			// FOR AREA WISE GRAVE/PLOT REPORT
+			$this->snCountryId = (isset($amGraveFormRequest['country_id']) && $amGraveFormRequest['country_id'] != '') ? $amGraveFormRequest['country_id'] : '';
+			$snCemeteryId = (isset($amGraveFormRequest['cem_cemetery_id']) && $amGraveFormRequest['cem_cemetery_id'] != '') ? $amGraveFormRequest['cem_cemetery_id'] : '';			
+			$this->snCemeteryId = ($snCemeteryId != '') ? $snCemeteryId : $this->snCementeryId;
+			$this->snAreaId = $oRequest->getParameter('reports_ar_area_id') != '' ? $oRequest->getParameter('reports_ar_area_id') : '';
+
+			if($this->snAreaId != '')
+			{
+				$this->snCountryId  = ($this->snCountryId != '') ? $this->snCountryId : $oRequest->getParameter('reports_country_id', '');			
+				$oGraveAreaReportPageListQuery = Doctrine::getTable('ArGrave')->getGravePlotReport($this->snCountryId, $this->snCemeteryId, $this->snAreaId,'','',true);
+				
+				// Set pager and get results
+				$oPager               = new sfMyPager();
+				$this->oGraveSectionsReportList  = $oPager->getResults('ArGrave', $this->snPaging, $oGraveAreaReportPageListQuery,$this->snPage);
+				$this->amGraveSectionsReportList = $this->oGraveSectionsReportList->getResults(Doctrine::HYDRATE_ARRAY);
+				unset($oPager);
+				
+				// Total number of records
+				$this->snPageTotalGraveSectionsReportPages = $this->oGraveSectionsReportList->getNbResults();
+				
+				// FOR TOTAL OF GRAVE STATUS GRAVE AS PER AREA
+				$this->amGraveAreaTotalReportResult = Doctrine::getTable('ArGrave')->getGravePlotReport($this->snCountryId, $this->snCemeteryId, $this->snAreaId,'','',false,true);
+				
+				if($oRequest->getParameter('request_type') == 'ajax_request')
+					$this->setTemplate('listGraveReportsUpdate');
+
+			}
+			
+			/*echo "<pre>";
+			print_r($this->amGraveSectionsReportList);
+			print_r($this->amGraveAreaTotalReportResult);
+			exit;*/
+		}
+	}
+	 /**
+     * getConfigurationFields
+     *
+     * Function for prepare configuration fields for form
+     * @access private
+     * @param  object $oForm form object
+     *     
+     */
+    private function getConfigurationFields($oForm)
+    {
+        $oForm->setWidgets(
+			array(
+					'country_id'		=> __('Select Country'),
+					'cem_cemetery_id'  => __('Select Cemetery'),
+					'reports_identity_id' => __('Select Grantee Identity')
+				 )
+		);
+
+		$oForm->setDefault('country_id', $this->amPostRequest['country_id']);
+		$oForm->setDefault('from_date', $this->amPostRequest['from_date']);
+		$oForm->setDefault('to_date', $this->amPostRequest['to_date']);
+		
+        $oForm->setLabels(
+            array(
+                'country_id'       	=> __('Select Country'),
+                'cem_cemetery_id'  	=> __('Select Cemetery'),
+				'from_date'  		=> __('From Date'),
+				'to_date'  			=> __('To Date')
+            )
+        );
+    }
+}

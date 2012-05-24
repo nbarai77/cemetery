@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Cemetery
+    description:  interments
+    keywords:     cemetery, interments
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [style.css, admin/style.css, datepicker/css/ui-lightness/jquery-ui-1.8.16.custom.css]
+
+  javascripts:    [admin/common.js, datepicker/js/jquery-ui-1.8.16.custom.min.js, ckeditor/ckeditor.js, ckfinder/ckfinder.js]
+
+  has_layout:     true
+  layout:         layout

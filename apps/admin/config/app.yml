@@ -1,0 +1,144 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/11-App
+
+# default values
+all:
+
+  # CKEdirtor Path Declaration
+  ckeditor:
+    basePath:         '/js/ckeditor/'
+  ckfinder:
+    basePath:         '/js/ckfinder/'
+
+  ckeditor_upload_image_path: /js/ckfinder/userfiles/
+
+  ohMailChimp:
+    # grab an API Key from http://admin.mailchimp.com/account/api/
+    api_key: '039083704c04ce615ea238c9fecd9a05-us2'
+    # grab your List's Unique Id by going to http://admin.mailchimp.com/lists/
+    # Click the "settings" link for the list - the Unique Id is at the bottom of that page.
+    list_id: 'c1227000f6'
+    logging: true
+    throw_exception: true
+    # if you want to overwrite or add your own methods
+    class_name: ohMailChimpApi
+
+  default_paging_records: 10
+  default_page: 1
+
+  site_url: http://admin.cemetery.ntn/
+  static_site_url: http://admin.cemetery.ntn
+
+  .array:  
+    record_per_page:
+      1: 1
+      2: 20
+      3: 30
+      4: 40
+
+# admin email id
+
+  admin_emailid: admin@cemetery.com
+
+ # reservations variable
+
+  slot_time: 30 minutes
+  week_view_height: 720
+  set_week_start_day_display: 2   #set week day in week view From which you want to start like Sun=>1, Mon=>2, Tue=>3, Wed=>4, Thu=> 5, Fri=>6, Sat => 7
+  current_date_format: Y-m-d
+
+# default value for template
+  .slot_type: 
+    slot_types:
+      0: 'Regular'
+  
+  .period_type:
+    period_types:
+      0: 'closed'
+      1: 'open'
+      2: '1st semi-slot'
+      3: '2nd semi-slot'
+
+  specres: 15
+
+#pattern for validation
+  .validationPattern:
+    recordValidationPattern:
+      pattern_first_name: "/^[:'a-zA-Z _åÅäÄöÖ€éšàâäèéêëîïôœùûüÿÀÁÄÈÉÊËÎÏÔŒÙÛÜŸçÇ€íáéíóúüÁÉÍÓÚÜñÑ¿¡€ßƒæåœøÆÅŒØ€-]*$/i"
+      pattern_login_name: '/^[.()a-zA-Z0-9 _åÅäÄöÖ€éšàâäèéêëîïôœùûüÿÀÁÄÈÉÊËÎÏÔŒÙÛÜŸçÇ€íáéíóúüÁÉÍÓÚÜñÑ¿¡€ßƒæåœøÆÅŒØ€-]*$/i'
+      pattern_password:   '/(?=.*\d)(?=.*\W+)(?![.\n])(?=.*[a-z]).*$/'
+      pattern_phone:  "/^((\+\d{0,3}(-|\s|\.)?\(?\d\)?(-|\s|\.)?\d{0,5})|(\(?\d{0,}\)?))(-|\s|\.)?(\d{1,})(-|\s|\.)?(\d{0,})(( x| ext)\d{1,5}){0,1}$/"
+      pattern_zip: '/^[a-zA-Z0-9\-\s]*$/i'
+      pattern_city: '/^[a-zA-Z0-9 ]*$/i'
+      pattern_number_dot: '/^[.0-9 ]*$/i'
+      pattern_number_only: '/^[0-9 ]*$/i'
+      pattern_date: '~(?<year>\d{4})-(?<month>\d{2})-(?<day>\d{2}) (?<hour>\d{2}):(?<minute>\d{2}):(?<second>\d{2})~'
+      pattern_storage_path: "/^[:'a-zA-Z_-]*$/i"
+      
+  date_widget_format:  '%year% - %month% - %day%'
+  
+  service_type_id:
+    interment:       1
+    exhumation:      2
+    ashes:           3
+  
+  grave_status:
+    vacant:             1
+    pre_Purchased:      2
+    in_use:             3
+    to_be_investigated: 4
+    tree:               5
+    reserved:           6
+    on_hold:            7
+    allocate:           8
+    obstruction:        9
+
+  booking_path: bookingDocs
+  upload_dir: /uploads
+  graveimages_dir: grave
+  graveimages_thumbnail_dir: grave/thumbnail
+  grave_thumb_width: 150
+  grave_thumb_height: 150
+  cemetery_doc_path: cemeteryDocs
+  stonemason_doc_path: stonemasonDocs
+  mappath_dir: mapPaths
+  cemeter_dir: cemetery
+  area_dir: area
+  section_dir: section
+  row_dir: row
+  plot_dir: plot
+
+  cemrole:
+    superadmin: 1
+    manager: 2
+    staff: 3
+    staffadmin: 4
+    funeraldirector: 5
+    stonemason: 6
+    normaluser: 7
+
+  # Group-Office Default Settings
+  goffice:
+    username: admin
+    password: admin
+    url: http://admin.cemetery.ntn/goffice
+
+  # DEFAULT COUNTRY SELECTED
+  default_country: Australia
+  default_country_id: 1
+
+  # GOOGLE MAP API KEY
+  google_map_key: ABQIAAAARzE1o5C--2H_UAq2UEWiOhQc_vR0YPdpPF4MBWXByvnh0paSJRRLJ4GxSmuXkrGAxgNNBD-8co5jRw
+  orgin_direction_point: "-33.87081,151.05992"
+
+  # CALENDAR IMAGE PATH
+  # LIVE:- live/cemetery_live/web/images/jquery/calendar.gif
+  cal_image_path: 'images/jquery/calendar.gif'
+  
+  default_date_formate: '00-00-0000'
+  
+  regular_time: '08:00:00'
+  
+  default_time: '00:00:00'
+  
+  regular_pay_rate: 10

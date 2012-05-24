@@ -1,0 +1,10 @@
+autoload:
+  ckeditor:
+    name:       ckeditor
+    path:       %sf_web_dir%/js/ckeditor
+    recursive:  on
+   
+  ckfinder:
+    name:       ckfinder
+    path:       %sf_web_dir%/js/ckfinder
+    recursive:  on
